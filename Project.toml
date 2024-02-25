@@ -44,7 +44,6 @@ LuxComponentArraysExt = "ComponentArrays"
 LuxComponentArraysReverseDiffExt = ["ComponentArrays", "ReverseDiff"]
 LuxFluxTransformExt = "Flux"
 LuxLuxAMDGPUExt = "LuxAMDGPU"
-LuxReverseDiffExt = "ReverseDiff"
 LuxTrackerExt = "Tracker"
 LuxZygoteExt = "Zygote"
 
