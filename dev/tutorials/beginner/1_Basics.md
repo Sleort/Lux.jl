@@ -622,7 +622,7 @@ val, pb_f = Zygote.pullback(f, x)
 
 
 ```
-(Float32[0.3850005, 0.71437216, 0.0016247969, 0.031389393, 0.0043726736], Zygote.var"#75#76"{Zygote.Pullback{Tuple{typeof(Main.var"##225".f), Vector{Float32}}, Tuple{Zygote.var"#3796#back#1207"{Zygote.var"#1203#1206"{Vector{Float32}, Vector{Float32}}}, Zygote.var"#3860#back#1233"{Zygote.ZBack{ChainRules.var"#slash_pullback_scalar#1558"{Vector{Float32}, Int64}}}, Zygote.Pullback{Tuple{typeof(Base.Broadcast.materialize), Vector{Float32}}, Tuple{}}}}}(∂(f)))
+(Float32[0.3850005, 0.71437216, 0.0016247969, 0.031389393, 0.0043726736], Zygote.var"#75#76"{Zygote.Pullback{Tuple{typeof(Main.var"##225".f), Vector{Float32}}, Tuple{Zygote.var"#3796#back#1207"{Zygote.var"#1203#1206"{Vector{Float32}, Vector{Float32}}}, Zygote.Pullback{Tuple{typeof(Base.Broadcast.materialize), Vector{Float32}}, Tuple{}}, Zygote.var"#3860#back#1233"{Zygote.ZBack{ChainRules.var"#slash_pullback_scalar#1558"{Vector{Float32}, Int64}}}}}}(∂(f)))
 ```
 
 
@@ -821,8 +821,8 @@ if @isdefined(LuxAMDGPU) && LuxAMDGPU.functional(); println(); AMDGPU.versioninf
 
 
 ```
-Julia Version 1.10.1
-Commit 7790d6f0641 (2024-02-13 20:41 UTC)
+Julia Version 1.10.2
+Commit bd47eca2c8a (2024-03-01 10:14 UTC)
 Build Info:
   Official https://julialang.org/ release
 Platform Info:
@@ -835,7 +835,7 @@ Threads: 48 default, 0 interactive, 24 GC (on 2 virtual cores)
 Environment:
   LD_LIBRARY_PATH = /usr/local/nvidia/lib:/usr/local/nvidia/lib64
   JULIA_DEPOT_PATH = /root/.cache/julia-buildkite-plugin/depots/01872db4-8c79-43af-ab7d-12abac4f24f6
-  JULIA_PROJECT = /var/lib/buildkite-agent/builds/gpuci-10/julialang/lux-dot-jl/docs/Project.toml
+  JULIA_PROJECT = /var/lib/buildkite-agent/builds/gpuci-12/julialang/lux-dot-jl/docs/Project.toml
   JULIA_AMDGPU_LOGGING_ENABLED = true
   JULIA_DEBUG = Literate
   JULIA_CPU_THREADS = 2
@@ -862,7 +862,7 @@ Julia packages:
 - CUDA_Runtime_jll: 0.11.1+0
 
 Toolchain:
-- Julia: 1.10.1
+- Julia: 1.10.2
 - LLVM: 15.0.7
 
 Environment:

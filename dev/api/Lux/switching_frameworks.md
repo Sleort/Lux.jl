@@ -34,7 +34,7 @@ Adapt.adapt(from::FromFluxAdaptor, L)
 Adapt a Flux model `l` to Lux model. See [`FromFluxAdaptor`](switching_frameworks#Lux.FromFluxAdaptor) for more details.
 
 
-<a target='_blank' href='https://github.com/LuxDL/Lux.jl/blob/77a9d76b898c2683b1b3a4ddaa6de0f96ef5861a/src/transform/flux.jl#L79-L83' class='documenter-source'>source</a><br>
+<a target='_blank' href='https://github.com/LuxDL/Lux.jl/blob/b3ba0ef219ac222e4fc636b5572ca8f5ae60808b/src/transform/flux.jl#L79-L83' class='documenter-source'>source</a><br>
 
 </div>
 <br>
@@ -77,7 +77,7 @@ m2(x, ps, st)
 ```
 
 
-<a target='_blank' href='https://github.com/LuxDL/Lux.jl/blob/77a9d76b898c2683b1b3a4ddaa6de0f96ef5861a/src/transform/flux.jl#L1-L39' class='documenter-source'>source</a><br>
+<a target='_blank' href='https://github.com/LuxDL/Lux.jl/blob/b3ba0ef219ac222e4fc636b5572ca8f5ae60808b/src/transform/flux.jl#L1-L39' class='documenter-source'>source</a><br>
 
 </div>
 <br>
@@ -113,7 +113,7 @@ Introducing this Layer in your model will lead to type instabilities, given the 
   * `p`: Flattened parameters of the `layer`
 
 
-<a target='_blank' href='https://github.com/LuxDL/Lux.jl/blob/77a9d76b898c2683b1b3a4ddaa6de0f96ef5861a/src/transform/flux.jl#L45-L72' class='documenter-source'>source</a><br>
+<a target='_blank' href='https://github.com/LuxDL/Lux.jl/blob/b3ba0ef219ac222e4fc636b5572ca8f5ae60808b/src/transform/flux.jl#L45-L72' class='documenter-source'>source</a><br>
 
 </div>
 <br>
@@ -146,7 +146,7 @@ Adapt.adapt(from::ToSimpleChainsAdaptor, L::AbstractExplicitLayer)
 Adapt a Flux model to Lux model. See [`ToSimpleChainsAdaptor`](switching_frameworks#Lux.ToSimpleChainsAdaptor) for more details.
 
 
-<a target='_blank' href='https://github.com/LuxDL/Lux.jl/blob/77a9d76b898c2683b1b3a4ddaa6de0f96ef5861a/src/transform/simplechains.jl#L50-L54' class='documenter-source'>source</a><br>
+<a target='_blank' href='https://github.com/LuxDL/Lux.jl/blob/b3ba0ef219ac222e4fc636b5572ca8f5ae60808b/src/transform/simplechains.jl#L50-L54' class='documenter-source'>source</a><br>
 
 </div>
 <br>
@@ -198,7 +198,7 @@ simple_chains_model(x, ps, st)
 ```
 
 
-<a target='_blank' href='https://github.com/LuxDL/Lux.jl/blob/77a9d76b898c2683b1b3a4ddaa6de0f96ef5861a/src/transform/simplechains.jl#L1-L45' class='documenter-source'>source</a><br>
+<a target='_blank' href='https://github.com/LuxDL/Lux.jl/blob/b3ba0ef219ac222e4fc636b5572ca8f5ae60808b/src/transform/simplechains.jl#L1-L45' class='documenter-source'>source</a><br>
 
 </div>
 <br>
@@ -218,7 +218,7 @@ Wraps a `SimpleChains` layer into a `Lux` layer. All operations are performed us
   * `layer`: SimpleChains layer
 
 
-<a target='_blank' href='https://github.com/LuxDL/Lux.jl/blob/77a9d76b898c2683b1b3a4ddaa6de0f96ef5861a/src/transform/simplechains.jl#L82-L91' class='documenter-source'>source</a><br>
+<a target='_blank' href='https://github.com/LuxDL/Lux.jl/blob/b3ba0ef219ac222e4fc636b5572ca8f5ae60808b/src/transform/simplechains.jl#L82-L91' class='documenter-source'>source</a><br>
 
 </div>
 <br>

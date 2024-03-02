@@ -487,8 +487,8 @@ if @isdefined(LuxAMDGPU) && LuxAMDGPU.functional(); println(); AMDGPU.versioninf
 
 
 ```
-Julia Version 1.10.1
-Commit 7790d6f0641 (2024-02-13 20:41 UTC)
+Julia Version 1.10.2
+Commit bd47eca2c8a (2024-03-01 10:14 UTC)
 Build Info:
   Official https://julialang.org/ release
 Platform Info:
@@ -501,7 +501,7 @@ Threads: 48 default, 0 interactive, 24 GC (on 2 virtual cores)
 Environment:
   LD_LIBRARY_PATH = /usr/local/nvidia/lib:/usr/local/nvidia/lib64
   JULIA_DEPOT_PATH = /root/.cache/julia-buildkite-plugin/depots/01872db4-8c79-43af-ab7d-12abac4f24f6
-  JULIA_PROJECT = /var/lib/buildkite-agent/builds/gpuci-10/julialang/lux-dot-jl/docs/Project.toml
+  JULIA_PROJECT = /var/lib/buildkite-agent/builds/gpuci-12/julialang/lux-dot-jl/docs/Project.toml
   JULIA_AMDGPU_LOGGING_ENABLED = true
   JULIA_DEBUG = Literate
   JULIA_CPU_THREADS = 2
@@ -528,14 +528,14 @@ Julia packages:
 - CUDA_Runtime_jll: 0.11.1+0
 
 Toolchain:
-- Julia: 1.10.1
+- Julia: 1.10.2
 - LLVM: 15.0.7
 
 Environment:
 - JULIA_CUDA_HARD_MEMORY_LIMIT: 25%
 
 1 device:
-  0: NVIDIA A100-PCIE-40GB MIG 1g.5gb (sm_80, 4.600 GiB / 4.750 GiB available)
+  0: NVIDIA A100-PCIE-40GB MIG 1g.5gb (sm_80, 4.192 GiB / 4.750 GiB available)
 ┌ Warning: LuxAMDGPU is loaded but the AMDGPU is not functional.
 └ @ LuxAMDGPU ~/.cache/julia-buildkite-plugin/depots/01872db4-8c79-43af-ab7d-12abac4f24f6/packages/LuxAMDGPU/sGa0S/src/LuxAMDGPU.jl:19
 

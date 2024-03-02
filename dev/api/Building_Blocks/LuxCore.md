@@ -22,6 +22,7 @@
 - [`LuxCore.inputsize`](#LuxCore.inputsize)
 - [`LuxCore.outputsize`](#LuxCore.outputsize)
 - [`LuxCore.parameterlength`](#LuxCore.parameterlength)
+- [`LuxCore.replicate`](#LuxCore.replicate)
 - [`LuxCore.setup`](#LuxCore.setup)
 - [`LuxCore.statelength`](#LuxCore.statelength)
 - [`LuxCore.stateless_apply`](#LuxCore.stateless_apply)
@@ -122,12 +123,9 @@ check_fmap_condition(cond, tmatch, x) -> Bool
 
 **Arguments**
 
-```
-* `cond` - A function that takes a single argument and returns a `Bool`.
-* `tmatch` - A shortcut to check if `x` is of type `tmatch`. Can be disabled by passing
-  `nothing`.
-* `x` - The structure to check.
-```
+  * `cond` - A function that takes a single argument and returns a `Bool`.
+  * `tmatch` - A shortcut to check if `x` is of type `tmatch`. Can be disabled by passing `nothing`.
+  * `x` - The structure to check.
 
 **Returns**
 
@@ -158,6 +156,19 @@ display_name(layer::AbstractExplicitLayer)
 ```
 
 Printed Name of the `layer`. If the `layer` has a field `name` that is used, else the type name is used.
+
+</div>
+<br>
+<div style='border-width:1px; border-style:solid; border-color:black; padding: 1em; border-radius: 25px;'>
+<a id='LuxCore.replicate' href='#LuxCore.replicate'>#</a>&nbsp;<b><u>LuxCore.replicate</u></b> &mdash; <i>Function</i>.
+
+
+
+```julia
+replicate(rng::AbstractRNG)
+```
+
+Creates a copy of the `rng` state depending on its type.
 
 </div>
 <br>

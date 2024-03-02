@@ -20,7 +20,6 @@
 - [`Lux.gpu`](#Lux.gpu)
 - [`Lux.istraining`](#Lux.istraining)
 - [`Lux.multigate`](#Lux.multigate)
-- [`Lux.replicate`](#Lux.replicate)
 
 
 <a id='Device-Management-/-Data-Transfer'></a>
@@ -45,7 +44,7 @@ This function has been deprecated. Use [`cpu_device`](../Accelerator_Support/Lux
 :::
 
 
-<a target='_blank' href='https://github.com/LuxDL/Lux.jl/blob/77a9d76b898c2683b1b3a4ddaa6de0f96ef5861a/src/deprecated.jl#L2-L12' class='documenter-source'>source</a><br>
+<a target='_blank' href='https://github.com/LuxDL/Lux.jl/blob/b3ba0ef219ac222e4fc636b5572ca8f5ae60808b/src/deprecated.jl#L2-L12' class='documenter-source'>source</a><br>
 
 </div>
 <br>
@@ -67,7 +66,7 @@ This function has been deprecated. Use [`gpu_device`](../Accelerator_Support/Lux
 :::
 
 
-<a target='_blank' href='https://github.com/LuxDL/Lux.jl/blob/77a9d76b898c2683b1b3a4ddaa6de0f96ef5861a/src/deprecated.jl#L19-L30' class='documenter-source'>source</a><br>
+<a target='_blank' href='https://github.com/LuxDL/Lux.jl/blob/b3ba0ef219ac222e4fc636b5572ca8f5ae60808b/src/deprecated.jl#L19-L30' class='documenter-source'>source</a><br>
 
 </div>
 <br>
@@ -112,7 +111,7 @@ foldl_init(op, x, init)
 Exactly same as `foldl(op, x; init)` in the forward pass. But, gives gradients wrt `init` in the backward pass.
 
 
-<a target='_blank' href='https://github.com/LuxDL/Lux.jl/blob/77a9d76b898c2683b1b3a4ddaa6de0f96ef5861a/src/utils.jl#L180-L186' class='documenter-source'>source</a><br>
+<a target='_blank' href='https://github.com/LuxDL/Lux.jl/blob/b3ba0ef219ac222e4fc636b5572ca8f5ae60808b/src/utils.jl#L167-L173' class='documenter-source'>source</a><br>
 
 </div>
 <br>
@@ -131,7 +130,7 @@ Returns `true` if `training` is `true` or if `st` contains a `training` field wi
 Method undefined if `st.training` is not of type `Val`.
 
 
-<a target='_blank' href='https://github.com/LuxDL/Lux.jl/blob/77a9d76b898c2683b1b3a4ddaa6de0f96ef5861a/src/utils.jl#L15-L23' class='documenter-source'>source</a><br>
+<a target='_blank' href='https://github.com/LuxDL/Lux.jl/blob/b3ba0ef219ac222e4fc636b5572ca8f5ae60808b/src/utils.jl#L2-L10' class='documenter-source'>source</a><br>
 
 </div>
 <br>
@@ -147,23 +146,7 @@ multigate(x::AbstractArray, ::Val{N})
 Split up `x` into `N` equally sized chunks (along dimension `1`).
 
 
-<a target='_blank' href='https://github.com/LuxDL/Lux.jl/blob/77a9d76b898c2683b1b3a4ddaa6de0f96ef5861a/src/utils.jl#L81-L85' class='documenter-source'>source</a><br>
-
-</div>
-<br>
-<div style='border-width:1px; border-style:solid; border-color:black; padding: 1em; border-radius: 25px;'>
-<a id='Lux.replicate' href='#Lux.replicate'>#</a>&nbsp;<b><u>Lux.replicate</u></b> &mdash; <i>Function</i>.
-
-
-
-```julia
-replicate(rng::AbstractRNG)
-```
-
-Creates a copy of the `rng` state depending on its type.
-
-
-<a target='_blank' href='https://github.com/LuxDL/Lux.jl/blob/77a9d76b898c2683b1b3a4ddaa6de0f96ef5861a/src/utils.jl#L2-L6' class='documenter-source'>source</a><br>
+<a target='_blank' href='https://github.com/LuxDL/Lux.jl/blob/b3ba0ef219ac222e4fc636b5572ca8f5ae60808b/src/utils.jl#L68-L72' class='documenter-source'>source</a><br>
 
 </div>
 <br>
@@ -187,7 +170,7 @@ f16(m)
 Converts the `eltype` of `m` *floating point* values to `Float16`. Recurses into structs marked with `Functors.@functor`.
 
 
-<a target='_blank' href='https://github.com/LuxDL/Lux.jl/blob/77a9d76b898c2683b1b3a4ddaa6de0f96ef5861a/src/utils.jl#L218-L223' class='documenter-source'>source</a><br>
+<a target='_blank' href='https://github.com/LuxDL/Lux.jl/blob/b3ba0ef219ac222e4fc636b5572ca8f5ae60808b/src/utils.jl#L205-L210' class='documenter-source'>source</a><br>
 
 </div>
 <br>
@@ -203,7 +186,7 @@ f32(m)
 Converts the `eltype` of `m` *floating point* values to `Float32`. Recurses into structs marked with `Functors.@functor`.
 
 
-<a target='_blank' href='https://github.com/LuxDL/Lux.jl/blob/77a9d76b898c2683b1b3a4ddaa6de0f96ef5861a/src/utils.jl#L218-L223' class='documenter-source'>source</a><br>
+<a target='_blank' href='https://github.com/LuxDL/Lux.jl/blob/b3ba0ef219ac222e4fc636b5572ca8f5ae60808b/src/utils.jl#L205-L210' class='documenter-source'>source</a><br>
 
 </div>
 <br>
@@ -219,7 +202,7 @@ f64(m)
 Converts the `eltype` of `m` *floating point* values to `Float64`. Recurses into structs marked with `Functors.@functor`.
 
 
-<a target='_blank' href='https://github.com/LuxDL/Lux.jl/blob/77a9d76b898c2683b1b3a4ddaa6de0f96ef5861a/src/utils.jl#L218-L223' class='documenter-source'>source</a><br>
+<a target='_blank' href='https://github.com/LuxDL/Lux.jl/blob/b3ba0ef219ac222e4fc636b5572ca8f5ae60808b/src/utils.jl#L205-L210' class='documenter-source'>source</a><br>
 
 </div>
 <br>
@@ -267,7 +250,7 @@ For a motivating example, see the Neural ODE tutorial.
   * `y`: The output of the layer
 
 
-<a target='_blank' href='https://github.com/LuxDL/Lux.jl/blob/77a9d76b898c2683b1b3a4ddaa6de0f96ef5861a/src/helpers/stateful.jl#L1-L39' class='documenter-source'>source</a><br>
+<a target='_blank' href='https://github.com/LuxDL/Lux.jl/blob/b3ba0ef219ac222e4fc636b5572ca8f5ae60808b/src/helpers/stateful.jl#L1-L39' class='documenter-source'>source</a><br>
 
 </div>
 <br>
@@ -290,7 +273,7 @@ An easy way to update `TruncatedStacktraces.VERBOSE` without having to load it m
 Effectively does `TruncatedStacktraces.VERBOSE[] = disable`
 
 
-<a target='_blank' href='https://github.com/LuxDL/Lux.jl/blob/77a9d76b898c2683b1b3a4ddaa6de0f96ef5861a/src/stacktraces.jl#L1-L7' class='documenter-source'>source</a><br>
+<a target='_blank' href='https://github.com/LuxDL/Lux.jl/blob/b3ba0ef219ac222e4fc636b5572ca8f5ae60808b/src/stacktraces.jl#L1-L7' class='documenter-source'>source</a><br>
 
 </div>
 <br>
