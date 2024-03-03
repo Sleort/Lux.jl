@@ -185,15 +185,15 @@ train(lux_model)
 
 
 ```
-[1/9] 	 Time 59.3s 	 Training Accuracy: 24.11% 	 Test Accuracy: 24.0%
-[2/9] 	 Time 46.78s 	 Training Accuracy: 46.89% 	 Test Accuracy: 47.5%
-[3/9] 	 Time 45.48s 	 Training Accuracy: 68.06% 	 Test Accuracy: 67.5%
-[4/9] 	 Time 44.53s 	 Training Accuracy: 74.33% 	 Test Accuracy: 72.5%
-[5/9] 	 Time 46.13s 	 Training Accuracy: 80.61% 	 Test Accuracy: 79.0%
-[6/9] 	 Time 45.76s 	 Training Accuracy: 82.83% 	 Test Accuracy: 82.5%
-[7/9] 	 Time 55.55s 	 Training Accuracy: 84.72% 	 Test Accuracy: 83.0%
-[8/9] 	 Time 52.03s 	 Training Accuracy: 85.61% 	 Test Accuracy: 84.0%
-[9/9] 	 Time 47.5s 	 Training Accuracy: 85.83% 	 Test Accuracy: 84.5%
+[1/9] 	 Time 56.7s 	 Training Accuracy: 24.11% 	 Test Accuracy: 24.0%
+[2/9] 	 Time 52.56s 	 Training Accuracy: 46.89% 	 Test Accuracy: 47.5%
+[3/9] 	 Time 52.71s 	 Training Accuracy: 68.06% 	 Test Accuracy: 67.5%
+[4/9] 	 Time 52.92s 	 Training Accuracy: 74.33% 	 Test Accuracy: 72.5%
+[5/9] 	 Time 53.6s 	 Training Accuracy: 80.61% 	 Test Accuracy: 79.0%
+[6/9] 	 Time 52.79s 	 Training Accuracy: 82.83% 	 Test Accuracy: 82.5%
+[7/9] 	 Time 53.2s 	 Training Accuracy: 84.72% 	 Test Accuracy: 83.0%
+[8/9] 	 Time 52.87s 	 Training Accuracy: 85.61% 	 Test Accuracy: 84.0%
+[9/9] 	 Time 53.04s 	 Training Accuracy: 85.83% 	 Test Accuracy: 84.5%
 
 ```
 
@@ -207,15 +207,15 @@ train(simple_chains_model)
 
 
 ```
-[1/9] 	 Time 16.54s 	 Training Accuracy: 40.39% 	 Test Accuracy: 34.5%
-[2/9] 	 Time 15.79s 	 Training Accuracy: 54.94% 	 Test Accuracy: 48.0%
-[3/9] 	 Time 15.76s 	 Training Accuracy: 64.67% 	 Test Accuracy: 57.5%
-[4/9] 	 Time 15.76s 	 Training Accuracy: 74.39% 	 Test Accuracy: 66.5%
-[5/9] 	 Time 15.76s 	 Training Accuracy: 77.44% 	 Test Accuracy: 71.5%
-[6/9] 	 Time 15.77s 	 Training Accuracy: 82.5% 	 Test Accuracy: 78.5%
-[7/9] 	 Time 15.78s 	 Training Accuracy: 84.89% 	 Test Accuracy: 82.0%
-[8/9] 	 Time 15.77s 	 Training Accuracy: 85.78% 	 Test Accuracy: 86.5%
-[9/9] 	 Time 15.77s 	 Training Accuracy: 86.11% 	 Test Accuracy: 85.0%
+[1/9] 	 Time 16.36s 	 Training Accuracy: 42.61% 	 Test Accuracy: 45.0%
+[2/9] 	 Time 15.78s 	 Training Accuracy: 62.44% 	 Test Accuracy: 65.5%
+[3/9] 	 Time 15.78s 	 Training Accuracy: 70.0% 	 Test Accuracy: 71.0%
+[4/9] 	 Time 15.78s 	 Training Accuracy: 77.83% 	 Test Accuracy: 78.5%
+[5/9] 	 Time 15.77s 	 Training Accuracy: 78.5% 	 Test Accuracy: 77.5%
+[6/9] 	 Time 15.77s 	 Training Accuracy: 84.5% 	 Test Accuracy: 84.5%
+[7/9] 	 Time 15.78s 	 Training Accuracy: 86.11% 	 Test Accuracy: 85.5%
+[8/9] 	 Time 15.77s 	 Training Accuracy: 87.33% 	 Test Accuracy: 88.5%
+[9/9] 	 Time 15.77s 	 Training Accuracy: 86.61% 	 Test Accuracy: 87.5%
 
 ```
 
@@ -251,7 +251,7 @@ Threads: 48 default, 0 interactive, 24 GC (on 2 virtual cores)
 Environment:
   LD_LIBRARY_PATH = /usr/local/nvidia/lib:/usr/local/nvidia/lib64
   JULIA_DEPOT_PATH = /root/.cache/julia-buildkite-plugin/depots/01872db4-8c79-43af-ab7d-12abac4f24f6
-  JULIA_PROJECT = /var/lib/buildkite-agent/builds/gpuci-16/julialang/lux-dot-jl/docs/Project.toml
+  JULIA_PROJECT = /var/lib/buildkite-agent/builds/gpuci-2/julialang/lux-dot-jl/docs/Project.toml
   JULIA_AMDGPU_LOGGING_ENABLED = true
   JULIA_DEBUG = Literate
   JULIA_CPU_THREADS = 2
