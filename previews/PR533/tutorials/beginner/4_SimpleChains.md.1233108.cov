@@ -155,15 +155,15 @@
         - ````
         - 
         - ````
-        - [1/9] 	 Time 56.7s 	 Training Accuracy: 24.11% 	 Test Accuracy: 24.0%
-        - [2/9] 	 Time 52.56s 	 Training Accuracy: 46.89% 	 Test Accuracy: 47.5%
-        - [3/9] 	 Time 52.71s 	 Training Accuracy: 68.06% 	 Test Accuracy: 67.5%
-        - [4/9] 	 Time 52.92s 	 Training Accuracy: 74.33% 	 Test Accuracy: 72.5%
-        - [5/9] 	 Time 53.6s 	 Training Accuracy: 80.61% 	 Test Accuracy: 79.0%
-        - [6/9] 	 Time 52.79s 	 Training Accuracy: 82.83% 	 Test Accuracy: 82.5%
-        - [7/9] 	 Time 53.2s 	 Training Accuracy: 84.72% 	 Test Accuracy: 83.0%
-        - [8/9] 	 Time 52.87s 	 Training Accuracy: 85.61% 	 Test Accuracy: 84.0%
-        - [9/9] 	 Time 53.04s 	 Training Accuracy: 85.83% 	 Test Accuracy: 84.5%
+        - [1/9] 	 Time 51.35s 	 Training Accuracy: 24.11% 	 Test Accuracy: 24.0%
+        - [2/9] 	 Time 49.17s 	 Training Accuracy: 46.89% 	 Test Accuracy: 47.5%
+        - [3/9] 	 Time 49.62s 	 Training Accuracy: 68.06% 	 Test Accuracy: 67.5%
+        - [4/9] 	 Time 46.7s 	 Training Accuracy: 74.33% 	 Test Accuracy: 72.5%
+        - [5/9] 	 Time 42.39s 	 Training Accuracy: 80.61% 	 Test Accuracy: 79.0%
+        - [6/9] 	 Time 41.74s 	 Training Accuracy: 82.83% 	 Test Accuracy: 82.5%
+        - [7/9] 	 Time 46.21s 	 Training Accuracy: 84.72% 	 Test Accuracy: 83.0%
+        - [8/9] 	 Time 41.61s 	 Training Accuracy: 85.61% 	 Test Accuracy: 84.0%
+        - [9/9] 	 Time 41.65s 	 Training Accuracy: 85.83% 	 Test Accuracy: 84.5%
         - 
         - ````
         - 
@@ -174,15 +174,15 @@
         - ````
         - 
         - ````
-        - [1/9] 	 Time 16.36s 	 Training Accuracy: 42.61% 	 Test Accuracy: 45.0%
-        - [2/9] 	 Time 15.78s 	 Training Accuracy: 62.44% 	 Test Accuracy: 65.5%
-        - [3/9] 	 Time 15.78s 	 Training Accuracy: 70.0% 	 Test Accuracy: 71.0%
-        - [4/9] 	 Time 15.78s 	 Training Accuracy: 77.83% 	 Test Accuracy: 78.5%
-        - [5/9] 	 Time 15.77s 	 Training Accuracy: 78.5% 	 Test Accuracy: 77.5%
-        - [6/9] 	 Time 15.77s 	 Training Accuracy: 84.5% 	 Test Accuracy: 84.5%
-        - [7/9] 	 Time 15.78s 	 Training Accuracy: 86.11% 	 Test Accuracy: 85.5%
-        - [8/9] 	 Time 15.77s 	 Training Accuracy: 87.33% 	 Test Accuracy: 88.5%
-        - [9/9] 	 Time 15.77s 	 Training Accuracy: 86.61% 	 Test Accuracy: 87.5%
+        - [1/9] 	 Time 16.67s 	 Training Accuracy: 33.17% 	 Test Accuracy: 34.0%
+        - [2/9] 	 Time 16.09s 	 Training Accuracy: 43.44% 	 Test Accuracy: 45.5%
+        - [3/9] 	 Time 16.09s 	 Training Accuracy: 68.06% 	 Test Accuracy: 65.0%
+        - [4/9] 	 Time 16.09s 	 Training Accuracy: 76.94% 	 Test Accuracy: 75.0%
+        - [5/9] 	 Time 16.09s 	 Training Accuracy: 79.56% 	 Test Accuracy: 75.5%
+        - [6/9] 	 Time 16.09s 	 Training Accuracy: 84.39% 	 Test Accuracy: 81.0%
+        - [7/9] 	 Time 16.1s 	 Training Accuracy: 86.56% 	 Test Accuracy: 86.0%
+        - [8/9] 	 Time 16.09s 	 Training Accuracy: 87.33% 	 Test Accuracy: 88.0%
+        - [9/9] 	 Time 16.09s 	 Training Accuracy: 88.28% 	 Test Accuracy: 88.5%
         - 
         - ````
         - 
@@ -214,7 +214,7 @@
         - Environment:
         -   LD_LIBRARY_PATH = /usr/local/nvidia/lib:/usr/local/nvidia/lib64
         -   JULIA_DEPOT_PATH = /root/.cache/julia-buildkite-plugin/depots/01872db4-8c79-43af-ab7d-12abac4f24f6
-        -   JULIA_PROJECT = /var/lib/buildkite-agent/builds/gpuci-2/julialang/lux-dot-jl/docs/Project.toml
+        -   JULIA_PROJECT = /var/lib/buildkite-agent/builds/gpuci-10/julialang/lux-dot-jl/docs/Project.toml
         -   JULIA_AMDGPU_LOGGING_ENABLED = true
         -   JULIA_DEBUG = Literate
         -   JULIA_CPU_THREADS = 2

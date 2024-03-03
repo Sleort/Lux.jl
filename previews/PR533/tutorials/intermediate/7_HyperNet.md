@@ -219,24 +219,24 @@ train()
 
 
 ```
-[1/9] 	 MNIST Time 3.38s 	 Training Accuracy: 54.49% 	 Test Accuracy: 56.25%
-[1/9] 	 FashionMNIST Time 0.17s 	 Training Accuracy: 57.13% 	 Test Accuracy: 53.12%
-[2/9] 	 MNIST Time 0.11s 	 Training Accuracy: 77.73% 	 Test Accuracy: 62.5%
-[2/9] 	 FashionMNIST Time 0.15s 	 Training Accuracy: 63.18% 	 Test Accuracy: 68.75%
-[3/9] 	 MNIST Time 0.06s 	 Training Accuracy: 83.11% 	 Test Accuracy: 87.5%
-[3/9] 	 FashionMNIST Time 0.08s 	 Training Accuracy: 60.55% 	 Test Accuracy: 59.38%
-[4/9] 	 MNIST Time 0.05s 	 Training Accuracy: 90.43% 	 Test Accuracy: 84.38%
-[4/9] 	 FashionMNIST Time 0.08s 	 Training Accuracy: 67.19% 	 Test Accuracy: 65.62%
-[5/9] 	 MNIST Time 0.05s 	 Training Accuracy: 90.53% 	 Test Accuracy: 87.5%
+[1/9] 	 MNIST Time 4.78s 	 Training Accuracy: 54.49% 	 Test Accuracy: 56.25%
+[1/9] 	 FashionMNIST Time 0.21s 	 Training Accuracy: 57.13% 	 Test Accuracy: 53.12%
+[2/9] 	 MNIST Time 0.05s 	 Training Accuracy: 77.73% 	 Test Accuracy: 62.5%
+[2/9] 	 FashionMNIST Time 0.1s 	 Training Accuracy: 63.18% 	 Test Accuracy: 68.75%
+[3/9] 	 MNIST Time 0.14s 	 Training Accuracy: 83.11% 	 Test Accuracy: 87.5%
+[3/9] 	 FashionMNIST Time 0.1s 	 Training Accuracy: 60.55% 	 Test Accuracy: 59.38%
+[4/9] 	 MNIST Time 0.1s 	 Training Accuracy: 90.43% 	 Test Accuracy: 84.38%
+[4/9] 	 FashionMNIST Time 0.04s 	 Training Accuracy: 67.19% 	 Test Accuracy: 65.62%
+[5/9] 	 MNIST Time 0.06s 	 Training Accuracy: 90.53% 	 Test Accuracy: 87.5%
 [5/9] 	 FashionMNIST Time 0.04s 	 Training Accuracy: 71.88% 	 Test Accuracy: 62.5%
 [6/9] 	 MNIST Time 0.03s 	 Training Accuracy: 93.36% 	 Test Accuracy: 87.5%
-[6/9] 	 FashionMNIST Time 0.07s 	 Training Accuracy: 75.49% 	 Test Accuracy: 68.75%
-[7/9] 	 MNIST Time 0.03s 	 Training Accuracy: 94.34% 	 Test Accuracy: 87.5%
+[6/9] 	 FashionMNIST Time 0.03s 	 Training Accuracy: 75.49% 	 Test Accuracy: 68.75%
+[7/9] 	 MNIST Time 0.04s 	 Training Accuracy: 94.34% 	 Test Accuracy: 87.5%
 [7/9] 	 FashionMNIST Time 0.03s 	 Training Accuracy: 76.56% 	 Test Accuracy: 71.88%
-[8/9] 	 MNIST Time 0.03s 	 Training Accuracy: 95.21% 	 Test Accuracy: 90.62%
-[8/9] 	 FashionMNIST Time 0.06s 	 Training Accuracy: 79.3% 	 Test Accuracy: 71.88%
-[9/9] 	 MNIST Time 0.05s 	 Training Accuracy: 96.97% 	 Test Accuracy: 90.62%
-[9/9] 	 FashionMNIST Time 0.05s 	 Training Accuracy: 73.54% 	 Test Accuracy: 68.75%
+[8/9] 	 MNIST Time 0.04s 	 Training Accuracy: 95.21% 	 Test Accuracy: 90.62%
+[8/9] 	 FashionMNIST Time 0.05s 	 Training Accuracy: 79.3% 	 Test Accuracy: 71.88%
+[9/9] 	 MNIST Time 0.03s 	 Training Accuracy: 96.97% 	 Test Accuracy: 90.62%
+[9/9] 	 FashionMNIST Time 0.03s 	 Training Accuracy: 73.54% 	 Test Accuracy: 68.75%
 [FINAL] 	 MNIST Training Accuracy: 96.19% 	 Test Accuracy: 87.5%
 [FINAL] 	 FashionMNIST Training Accuracy: 73.54% 	 Test Accuracy: 68.75%
 
@@ -271,7 +271,7 @@ Threads: 48 default, 0 interactive, 24 GC (on 2 virtual cores)
 Environment:
   LD_LIBRARY_PATH = /usr/local/nvidia/lib:/usr/local/nvidia/lib64
   JULIA_DEPOT_PATH = /root/.cache/julia-buildkite-plugin/depots/01872db4-8c79-43af-ab7d-12abac4f24f6
-  JULIA_PROJECT = /var/lib/buildkite-agent/builds/gpuci-2/julialang/lux-dot-jl/docs/Project.toml
+  JULIA_PROJECT = /var/lib/buildkite-agent/builds/gpuci-10/julialang/lux-dot-jl/docs/Project.toml
   JULIA_AMDGPU_LOGGING_ENABLED = true
   JULIA_DEBUG = Literate
   JULIA_CPU_THREADS = 2

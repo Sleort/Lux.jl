@@ -224,15 +224,15 @@ train(NeuralODE)
 
 
 ```
-[1/9] 	 Time 3.71s 	 Training Accuracy: 50.74% 	 Test Accuracy: 45.33%
-[2/9] 	 Time 0.31s 	 Training Accuracy: 70.74% 	 Test Accuracy: 66.67%
-[3/9] 	 Time 0.38s 	 Training Accuracy: 77.85% 	 Test Accuracy: 71.33%
-[4/9] 	 Time 0.41s 	 Training Accuracy: 81.04% 	 Test Accuracy: 75.33%
-[5/9] 	 Time 0.42s 	 Training Accuracy: 82.67% 	 Test Accuracy: 78.0%
-[6/9] 	 Time 0.38s 	 Training Accuracy: 84.15% 	 Test Accuracy: 78.67%
-[7/9] 	 Time 0.39s 	 Training Accuracy: 85.48% 	 Test Accuracy: 80.67%
-[8/9] 	 Time 0.81s 	 Training Accuracy: 86.81% 	 Test Accuracy: 82.0%
-[9/9] 	 Time 0.33s 	 Training Accuracy: 87.41% 	 Test Accuracy: 84.0%
+[1/9] 	 Time 4.82s 	 Training Accuracy: 50.74% 	 Test Accuracy: 45.33%
+[2/9] 	 Time 0.32s 	 Training Accuracy: 70.74% 	 Test Accuracy: 66.67%
+[3/9] 	 Time 0.32s 	 Training Accuracy: 77.85% 	 Test Accuracy: 71.33%
+[4/9] 	 Time 0.34s 	 Training Accuracy: 81.04% 	 Test Accuracy: 75.33%
+[5/9] 	 Time 0.35s 	 Training Accuracy: 82.67% 	 Test Accuracy: 78.0%
+[6/9] 	 Time 0.75s 	 Training Accuracy: 84.15% 	 Test Accuracy: 78.67%
+[7/9] 	 Time 0.35s 	 Training Accuracy: 85.48% 	 Test Accuracy: 80.67%
+[8/9] 	 Time 0.42s 	 Training Accuracy: 86.81% 	 Test Accuracy: 82.0%
+[9/9] 	 Time 0.31s 	 Training Accuracy: 87.41% 	 Test Accuracy: 84.0%
 
 ```
 
@@ -246,15 +246,15 @@ train(NeuralODE; sensealg=GaussAdjoint(; autojacvec=ZygoteVJP()), use_named_tupl
 
 
 ```
-[1/9] 	 Time 2.58s 	 Training Accuracy: 49.78% 	 Test Accuracy: 43.33%
-[2/9] 	 Time 0.38s 	 Training Accuracy: 71.04% 	 Test Accuracy: 66.67%
-[3/9] 	 Time 0.28s 	 Training Accuracy: 78.15% 	 Test Accuracy: 72.0%
-[4/9] 	 Time 0.33s 	 Training Accuracy: 80.44% 	 Test Accuracy: 74.0%
-[5/9] 	 Time 0.37s 	 Training Accuracy: 82.3% 	 Test Accuracy: 78.0%
-[6/9] 	 Time 0.4s 	 Training Accuracy: 83.56% 	 Test Accuracy: 79.33%
-[7/9] 	 Time 0.57s 	 Training Accuracy: 85.19% 	 Test Accuracy: 78.67%
-[8/9] 	 Time 0.32s 	 Training Accuracy: 86.67% 	 Test Accuracy: 82.0%
-[9/9] 	 Time 0.33s 	 Training Accuracy: 87.33% 	 Test Accuracy: 82.0%
+[1/9] 	 Time 3.77s 	 Training Accuracy: 49.78% 	 Test Accuracy: 43.33%
+[2/9] 	 Time 0.28s 	 Training Accuracy: 71.04% 	 Test Accuracy: 66.67%
+[3/9] 	 Time 0.27s 	 Training Accuracy: 78.15% 	 Test Accuracy: 72.0%
+[4/9] 	 Time 0.35s 	 Training Accuracy: 80.44% 	 Test Accuracy: 74.0%
+[5/9] 	 Time 0.38s 	 Training Accuracy: 82.3% 	 Test Accuracy: 78.0%
+[6/9] 	 Time 0.55s 	 Training Accuracy: 83.56% 	 Test Accuracy: 79.33%
+[7/9] 	 Time 1.01s 	 Training Accuracy: 85.19% 	 Test Accuracy: 78.67%
+[8/9] 	 Time 0.3s 	 Training Accuracy: 86.67% 	 Test Accuracy: 82.0%
+[9/9] 	 Time 0.3s 	 Training Accuracy: 87.33% 	 Test Accuracy: 82.0%
 
 ```
 
@@ -268,15 +268,15 @@ train(NeuralODE; sensealg=InterpolatingAdjoint(; autojacvec=ReverseDiffVJP()), c
 
 
 ```
-[1/9] 	 Time 1.14s 	 Training Accuracy: 50.96% 	 Test Accuracy: 43.33%
-[2/9] 	 Time 0.25s 	 Training Accuracy: 69.63% 	 Test Accuracy: 66.0%
-[3/9] 	 Time 0.24s 	 Training Accuracy: 77.93% 	 Test Accuracy: 71.33%
-[4/9] 	 Time 0.28s 	 Training Accuracy: 80.74% 	 Test Accuracy: 76.67%
-[5/9] 	 Time 0.27s 	 Training Accuracy: 82.52% 	 Test Accuracy: 78.0%
-[6/9] 	 Time 0.27s 	 Training Accuracy: 84.07% 	 Test Accuracy: 78.67%
-[7/9] 	 Time 0.27s 	 Training Accuracy: 85.33% 	 Test Accuracy: 80.67%
-[8/9] 	 Time 0.27s 	 Training Accuracy: 86.59% 	 Test Accuracy: 81.33%
-[9/9] 	 Time 0.27s 	 Training Accuracy: 87.7% 	 Test Accuracy: 82.0%
+[1/9] 	 Time 1.21s 	 Training Accuracy: 50.96% 	 Test Accuracy: 43.33%
+[2/9] 	 Time 0.21s 	 Training Accuracy: 69.63% 	 Test Accuracy: 66.0%
+[3/9] 	 Time 0.39s 	 Training Accuracy: 77.93% 	 Test Accuracy: 71.33%
+[4/9] 	 Time 0.39s 	 Training Accuracy: 80.74% 	 Test Accuracy: 76.67%
+[5/9] 	 Time 0.31s 	 Training Accuracy: 82.52% 	 Test Accuracy: 78.0%
+[6/9] 	 Time 0.32s 	 Training Accuracy: 84.07% 	 Test Accuracy: 78.67%
+[7/9] 	 Time 0.22s 	 Training Accuracy: 85.33% 	 Test Accuracy: 80.67%
+[8/9] 	 Time 0.23s 	 Training Accuracy: 86.59% 	 Test Accuracy: 81.33%
+[9/9] 	 Time 0.23s 	 Training Accuracy: 87.7% 	 Test Accuracy: 82.0%
 
 ```
 
@@ -290,15 +290,15 @@ train(NeuralODE; sensealg=ReverseDiffAdjoint(), cpu=true)
 
 
 ```
-[1/9] 	 Time 8.36s 	 Training Accuracy: 50.96% 	 Test Accuracy: 43.33%
-[2/9] 	 Time 7.57s 	 Training Accuracy: 69.63% 	 Test Accuracy: 66.0%
-[3/9] 	 Time 7.78s 	 Training Accuracy: 77.93% 	 Test Accuracy: 71.33%
-[4/9] 	 Time 7.73s 	 Training Accuracy: 80.74% 	 Test Accuracy: 76.67%
-[5/9] 	 Time 8.95s 	 Training Accuracy: 82.52% 	 Test Accuracy: 78.0%
-[6/9] 	 Time 9.6s 	 Training Accuracy: 84.07% 	 Test Accuracy: 78.67%
-[7/9] 	 Time 9.47s 	 Training Accuracy: 85.33% 	 Test Accuracy: 80.67%
-[8/9] 	 Time 10.63s 	 Training Accuracy: 86.59% 	 Test Accuracy: 81.33%
-[9/9] 	 Time 10.44s 	 Training Accuracy: 87.7% 	 Test Accuracy: 82.0%
+[1/9] 	 Time 9.91s 	 Training Accuracy: 50.96% 	 Test Accuracy: 43.33%
+[2/9] 	 Time 10.11s 	 Training Accuracy: 69.63% 	 Test Accuracy: 66.0%
+[3/9] 	 Time 10.01s 	 Training Accuracy: 77.93% 	 Test Accuracy: 71.33%
+[4/9] 	 Time 9.15s 	 Training Accuracy: 80.74% 	 Test Accuracy: 76.67%
+[5/9] 	 Time 11.58s 	 Training Accuracy: 82.52% 	 Test Accuracy: 78.0%
+[6/9] 	 Time 10.86s 	 Training Accuracy: 84.07% 	 Test Accuracy: 78.67%
+[7/9] 	 Time 10.58s 	 Training Accuracy: 85.33% 	 Test Accuracy: 80.67%
+[8/9] 	 Time 11.19s 	 Training Accuracy: 86.59% 	 Test Accuracy: 81.33%
+[9/9] 	 Time 11.68s 	 Training Accuracy: 87.7% 	 Test Accuracy: 82.0%
 
 ```
 
@@ -347,15 +347,15 @@ train(StatefulNeuralODE)
 
 
 ```
-[1/9] 	 Time 1.41s 	 Training Accuracy: 49.85% 	 Test Accuracy: 40.67%
-[2/9] 	 Time 0.28s 	 Training Accuracy: 70.3% 	 Test Accuracy: 66.67%
-[3/9] 	 Time 0.29s 	 Training Accuracy: 78.07% 	 Test Accuracy: 71.33%
-[4/9] 	 Time 0.29s 	 Training Accuracy: 80.74% 	 Test Accuracy: 76.0%
-[5/9] 	 Time 0.38s 	 Training Accuracy: 82.0% 	 Test Accuracy: 78.0%
-[6/9] 	 Time 0.39s 	 Training Accuracy: 84.44% 	 Test Accuracy: 79.33%
-[7/9] 	 Time 0.42s 	 Training Accuracy: 85.7% 	 Test Accuracy: 82.0%
-[8/9] 	 Time 0.29s 	 Training Accuracy: 87.04% 	 Test Accuracy: 80.67%
-[9/9] 	 Time 0.32s 	 Training Accuracy: 88.0% 	 Test Accuracy: 82.67%
+[1/9] 	 Time 1.32s 	 Training Accuracy: 49.85% 	 Test Accuracy: 40.67%
+[2/9] 	 Time 0.27s 	 Training Accuracy: 70.3% 	 Test Accuracy: 66.67%
+[3/9] 	 Time 0.37s 	 Training Accuracy: 78.07% 	 Test Accuracy: 71.33%
+[4/9] 	 Time 0.39s 	 Training Accuracy: 80.74% 	 Test Accuracy: 76.0%
+[5/9] 	 Time 0.57s 	 Training Accuracy: 82.0% 	 Test Accuracy: 78.0%
+[6/9] 	 Time 0.31s 	 Training Accuracy: 84.44% 	 Test Accuracy: 79.33%
+[7/9] 	 Time 0.62s 	 Training Accuracy: 85.7% 	 Test Accuracy: 82.0%
+[8/9] 	 Time 0.49s 	 Training Accuracy: 87.04% 	 Test Accuracy: 80.67%
+[9/9] 	 Time 0.31s 	 Training Accuracy: 88.0% 	 Test Accuracy: 82.67%
 
 ```
 
@@ -387,7 +387,7 @@ NeuralODE is not type stable due to the boxing of `st`
 
 ```
 MethodInstance for (::Lux.Chain{@NamedTuple{layer_1::Lux.FlattenLayer{Nothing}, layer_2::Lux.Dense{true, typeof(NNlib.tanh_fast), typeof(WeightInitializers.glorot_uniform), typeof(WeightInitializers.zeros32)}, layer_3::Main.var"##225".NeuralODE{Lux.Chain{@NamedTuple{layer_1::Lux.Dense{true, typeof(NNlib.tanh_fast), typeof(WeightInitializers.glorot_uniform), typeof(WeightInitializers.zeros32)}, layer_2::Lux.Dense{true, typeof(NNlib.tanh_fast), typeof(WeightInitializers.glorot_uniform), typeof(WeightInitializers.zeros32)}, layer_3::Lux.Dense{true, typeof(NNlib.tanh_fast), typeof(WeightInitializers.glorot_uniform), typeof(WeightInitializers.zeros32)}}, Nothing}, OrdinaryDiffEq.Tsit5{typeof(OrdinaryDiffEq.trivial_limiter!), typeof(OrdinaryDiffEq.trivial_limiter!), Static.False}, SciMLSensitivity.InterpolatingAdjoint{0, true, Val{:central}, SciMLSensitivity.ZygoteVJP}, Tuple{Float32, Float32}, Base.Pairs{Symbol, Real, NTuple{4, Symbol}, @NamedTuple{save_everystep::Bool, reltol::Float32, abstol::Float32, save_start::Bool}}}, layer_4::Lux.WrappedFunction{Base.Fix1{typeof(Main.var"##225".diffeqsol_to_array), Int64}}, layer_5::Lux.Dense{true, typeof(identity), typeof(WeightInitializers.glorot_uniform), typeof(WeightInitializers.zeros32)}}, Nothing})(::CUDA.CuArray{Float32, 4, CUDA.Mem.DeviceBuffer}, ::ComponentArrays.ComponentVector{Float32, CUDA.CuArray{Float32, 1, CUDA.Mem.DeviceBuffer}, Tuple{ComponentArrays.Axis{(layer_1 = 1:0, layer_2 = ViewAxis(1:15700, Axis(weight = ViewAxis(1:15680, ShapedAxis((20, 784))), bias = ViewAxis(15681:15700, ShapedAxis((20, 1))))), layer_3 = ViewAxis(15701:16240, Axis(layer_1 = ViewAxis(1:210, Axis(weight = ViewAxis(1:200, ShapedAxis((10, 20))), bias = ViewAxis(201:210, ShapedAxis((10, 1))))), layer_2 = ViewAxis(211:320, Axis(weight = ViewAxis(1:100, ShapedAxis((10, 10))), bias = ViewAxis(101:110, ShapedAxis((10, 1))))), layer_3 = ViewAxis(321:540, Axis(weight = ViewAxis(1:200, ShapedAxis((20, 10))), bias = ViewAxis(201:220, ShapedAxis((20, 1))))))), layer_4 = 16241:16240, layer_5 = ViewAxis(16241:16450, Axis(weight = ViewAxis(1:200, ShapedAxis((10, 20))), bias = ViewAxis(201:210, ShapedAxis((10, 1))))))}}}, ::@NamedTuple{layer_1::@NamedTuple{}, layer_2::@NamedTuple{}, layer_3::@NamedTuple{layer_1::@NamedTuple{}, layer_2::@NamedTuple{}, layer_3::@NamedTuple{}}, layer_4::@NamedTuple{}, layer_5::@NamedTuple{}})
-  from (c::Lux.Chain)(x, ps, st::NamedTuple) @ Lux /var/lib/buildkite-agent/builds/gpuci-2/julialang/lux-dot-jl/src/layers/containers.jl:479
+  from (c::Lux.Chain)(x, ps, st::NamedTuple) @ Lux /var/lib/buildkite-agent/builds/gpuci-10/julialang/lux-dot-jl/src/layers/containers.jl:479
 Arguments
   c::Lux.Chain{@NamedTuple{layer_1::Lux.FlattenLayer{Nothing}, layer_2::Lux.Dense{true, typeof(NNlib.tanh_fast), typeof(WeightInitializers.glorot_uniform), typeof(WeightInitializers.zeros32)}, layer_3::Main.var"##225".NeuralODE{Lux.Chain{@NamedTuple{layer_1::Lux.Dense{true, typeof(NNlib.tanh_fast), typeof(WeightInitializers.glorot_uniform), typeof(WeightInitializers.zeros32)}, layer_2::Lux.Dense{true, typeof(NNlib.tanh_fast), typeof(WeightInitializers.glorot_uniform), typeof(WeightInitializers.zeros32)}, layer_3::Lux.Dense{true, typeof(NNlib.tanh_fast), typeof(WeightInitializers.glorot_uniform), typeof(WeightInitializers.zeros32)}}, Nothing}, OrdinaryDiffEq.Tsit5{typeof(OrdinaryDiffEq.trivial_limiter!), typeof(OrdinaryDiffEq.trivial_limiter!), Static.False}, SciMLSensitivity.InterpolatingAdjoint{0, true, Val{:central}, SciMLSensitivity.ZygoteVJP}, Tuple{Float32, Float32}, Base.Pairs{Symbol, Real, NTuple{4, Symbol}, @NamedTuple{save_everystep::Bool, reltol::Float32, abstol::Float32, save_start::Bool}}}, layer_4::Lux.WrappedFunction{Base.Fix1{typeof(Main.var"##225".diffeqsol_to_array), Int64}}, layer_5::Lux.Dense{true, typeof(identity), typeof(WeightInitializers.glorot_uniform), typeof(WeightInitializers.zeros32)}}, Nothing}
   x::CUDA.CuArray{Float32, 4, CUDA.Mem.DeviceBuffer}
@@ -412,7 +412,7 @@ We avoid the problem entirely by using `StatefulNeuralODE`
 
 ```
 MethodInstance for (::Lux.Chain{@NamedTuple{layer_1::Lux.FlattenLayer{Nothing}, layer_2::Lux.Dense{true, typeof(NNlib.tanh_fast), typeof(WeightInitializers.glorot_uniform), typeof(WeightInitializers.zeros32)}, layer_3::Main.var"##225".StatefulNeuralODE{Lux.Chain{@NamedTuple{layer_1::Lux.Dense{true, typeof(NNlib.tanh_fast), typeof(WeightInitializers.glorot_uniform), typeof(WeightInitializers.zeros32)}, layer_2::Lux.Dense{true, typeof(NNlib.tanh_fast), typeof(WeightInitializers.glorot_uniform), typeof(WeightInitializers.zeros32)}, layer_3::Lux.Dense{true, typeof(NNlib.tanh_fast), typeof(WeightInitializers.glorot_uniform), typeof(WeightInitializers.zeros32)}}, Nothing}, OrdinaryDiffEq.Tsit5{typeof(OrdinaryDiffEq.trivial_limiter!), typeof(OrdinaryDiffEq.trivial_limiter!), Static.False}, SciMLSensitivity.InterpolatingAdjoint{0, true, Val{:central}, SciMLSensitivity.ZygoteVJP}, Tuple{Float32, Float32}, Base.Pairs{Symbol, Real, NTuple{4, Symbol}, @NamedTuple{save_everystep::Bool, reltol::Float32, abstol::Float32, save_start::Bool}}}, layer_4::Lux.WrappedFunction{Base.Fix1{typeof(Main.var"##225".diffeqsol_to_array), Int64}}, layer_5::Lux.Dense{true, typeof(identity), typeof(WeightInitializers.glorot_uniform), typeof(WeightInitializers.zeros32)}}, Nothing})(::CUDA.CuArray{Float32, 4, CUDA.Mem.DeviceBuffer}, ::ComponentArrays.ComponentVector{Float32, CUDA.CuArray{Float32, 1, CUDA.Mem.DeviceBuffer}, Tuple{ComponentArrays.Axis{(layer_1 = 1:0, layer_2 = ViewAxis(1:15700, Axis(weight = ViewAxis(1:15680, ShapedAxis((20, 784))), bias = ViewAxis(15681:15700, ShapedAxis((20, 1))))), layer_3 = ViewAxis(15701:16240, Axis(layer_1 = ViewAxis(1:210, Axis(weight = ViewAxis(1:200, ShapedAxis((10, 20))), bias = ViewAxis(201:210, ShapedAxis((10, 1))))), layer_2 = ViewAxis(211:320, Axis(weight = ViewAxis(1:100, ShapedAxis((10, 10))), bias = ViewAxis(101:110, ShapedAxis((10, 1))))), layer_3 = ViewAxis(321:540, Axis(weight = ViewAxis(1:200, ShapedAxis((20, 10))), bias = ViewAxis(201:220, ShapedAxis((20, 1))))))), layer_4 = 16241:16240, layer_5 = ViewAxis(16241:16450, Axis(weight = ViewAxis(1:200, ShapedAxis((10, 20))), bias = ViewAxis(201:210, ShapedAxis((10, 1))))))}}}, ::@NamedTuple{layer_1::@NamedTuple{}, layer_2::@NamedTuple{}, layer_3::@NamedTuple{layer_1::@NamedTuple{}, layer_2::@NamedTuple{}, layer_3::@NamedTuple{}}, layer_4::@NamedTuple{}, layer_5::@NamedTuple{}})
-  from (c::Lux.Chain)(x, ps, st::NamedTuple) @ Lux /var/lib/buildkite-agent/builds/gpuci-2/julialang/lux-dot-jl/src/layers/containers.jl:479
+  from (c::Lux.Chain)(x, ps, st::NamedTuple) @ Lux /var/lib/buildkite-agent/builds/gpuci-10/julialang/lux-dot-jl/src/layers/containers.jl:479
 Arguments
   c::Lux.Chain{@NamedTuple{layer_1::Lux.FlattenLayer{Nothing}, layer_2::Lux.Dense{true, typeof(NNlib.tanh_fast), typeof(WeightInitializers.glorot_uniform), typeof(WeightInitializers.zeros32)}, layer_3::Main.var"##225".StatefulNeuralODE{Lux.Chain{@NamedTuple{layer_1::Lux.Dense{true, typeof(NNlib.tanh_fast), typeof(WeightInitializers.glorot_uniform), typeof(WeightInitializers.zeros32)}, layer_2::Lux.Dense{true, typeof(NNlib.tanh_fast), typeof(WeightInitializers.glorot_uniform), typeof(WeightInitializers.zeros32)}, layer_3::Lux.Dense{true, typeof(NNlib.tanh_fast), typeof(WeightInitializers.glorot_uniform), typeof(WeightInitializers.zeros32)}}, Nothing}, OrdinaryDiffEq.Tsit5{typeof(OrdinaryDiffEq.trivial_limiter!), typeof(OrdinaryDiffEq.trivial_limiter!), Static.False}, SciMLSensitivity.InterpolatingAdjoint{0, true, Val{:central}, SciMLSensitivity.ZygoteVJP}, Tuple{Float32, Float32}, Base.Pairs{Symbol, Real, NTuple{4, Symbol}, @NamedTuple{save_everystep::Bool, reltol::Float32, abstol::Float32, save_start::Bool}}}, layer_4::Lux.WrappedFunction{Base.Fix1{typeof(Main.var"##225".diffeqsol_to_array), Int64}}, layer_5::Lux.Dense{true, typeof(identity), typeof(WeightInitializers.glorot_uniform), typeof(WeightInitializers.zeros32)}}, Nothing}
   x::CUDA.CuArray{Float32, 4, CUDA.Mem.DeviceBuffer}
@@ -458,7 +458,7 @@ Threads: 48 default, 0 interactive, 24 GC (on 2 virtual cores)
 Environment:
   LD_LIBRARY_PATH = /usr/local/nvidia/lib:/usr/local/nvidia/lib64
   JULIA_DEPOT_PATH = /root/.cache/julia-buildkite-plugin/depots/01872db4-8c79-43af-ab7d-12abac4f24f6
-  JULIA_PROJECT = /var/lib/buildkite-agent/builds/gpuci-2/julialang/lux-dot-jl/docs/Project.toml
+  JULIA_PROJECT = /var/lib/buildkite-agent/builds/gpuci-10/julialang/lux-dot-jl/docs/Project.toml
   JULIA_AMDGPU_LOGGING_ENABLED = true
   JULIA_DEBUG = Literate
   JULIA_CPU_THREADS = 2
@@ -492,7 +492,7 @@ Environment:
 - JULIA_CUDA_HARD_MEMORY_LIMIT: 25%
 
 1 device:
-  0: NVIDIA A100-PCIE-40GB MIG 1g.5gb (sm_80, 3.475 GiB / 4.750 GiB available)
+  0: NVIDIA A100-PCIE-40GB MIG 1g.5gb (sm_80, 3.787 GiB / 4.750 GiB available)
 ┌ Warning: LuxAMDGPU is loaded but the AMDGPU is not functional.
 └ @ LuxAMDGPU ~/.cache/julia-buildkite-plugin/depots/01872db4-8c79-43af-ab7d-12abac4f24f6/packages/LuxAMDGPU/sGa0S/src/LuxAMDGPU.jl:19
 
