@@ -1,10 +1,11 @@
 module LuxSimpleChainsExt
 
-using Lux, Random
+using Lux
 import SimpleChains
 import Lux: SimpleChainsModelConversionError, __to_simplechains_adaptor,
             __fix_input_dims_simplechain
 import Optimisers
+import Random: AbstractRNG
 
 function __fix_input_dims_simplechain(layers::Vector, input_dims)
     return SimpleChains.SimpleChain(input_dims, layers...)
@@ -74,19 +75,5 @@ function NNlib.logsoftmax!(y::SimpleChains.StrideArray{T1, 2},
     SimpleChains.logsoftmax!(y, m, x)
     return y
 end
-
-# Nicer Interactions with Optimisers.jl
-# function Optimisers._setup(opt::Optimisers.AbstractRule,
-#         ps::Union{SimpleChains.StrideArray, SimpleChains.PtrArray}; cache)
-#     ℓ = Leaf(rule, init(rule, x))
-#     if isbits(x)
-#       cache[nothing] = nothing  # just to disable the warning
-#       ℓ
-#     else
-#       cache[x] = ℓ
-#     end
-#     error(1)
-#     return Optimisers.setup(opt, ps .- ps)
-# end
 
 end

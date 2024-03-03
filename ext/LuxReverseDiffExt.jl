@@ -1,8 +1,9 @@
 module LuxReverseDiffExt
 
-using Lux, ReverseDiff
+import Lux: __value
+using ReverseDiff: TrackedReal, TrackedArray, value
 
-Lux.__value(x::AbstractArray{<:ReverseDiff.TrackedReal}) = ReverseDiff.value.(x)
-Lux.__value(x::ReverseDiff.TrackedArray) = ReverseDiff.value(x)
+__value(x::AbstractArray{<:TrackedReal}) = value.(x)
+__value(x::TrackedArray) = value(x)
 
 end

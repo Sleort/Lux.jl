@@ -2,13 +2,21 @@ module Experimental
 
 import ..Lux
 using ..Lux, LuxCore, LuxDeviceUtils, Random
-import LuxCore: AbstractExplicitLayer, AbstractExplicitContainerLayer
+using LuxDeviceUtils: AbstractLuxDevice
+using LuxCore: AbstractExplicitLayer, AbstractExplicitContainerLayer
 import ..Lux: _merge, _pairs, initialstates, initialparameters, apply, NAME_TYPE,
               _getproperty
+
+using ADTypes: ADTypes
 import ChainRulesCore as CRC
-import ConcreteStructs: @concrete
-import Functors: fmap
-import TruncatedStacktraces
+using ConcreteStructs: @concrete
+import ConstructionBase: constructorof
+using Functors: Functors, fmap, functor
+using MacroTools: block, combinedef, splitdef
+using Markdown: @doc_str
+using Optimisers: Optimisers
+using Random: AbstractRNG, Random
+using Setfield: Setfield
 
 include("map.jl")
 include("training.jl")
@@ -23,8 +31,8 @@ end
 # Deprecations for v0.6
 module Training
 
-using ..Experimental, Reexport
-@reexport using ADTypes
+using ADTypes: AutoEnzyme, AutoReverseDiff, AutoTracker, AutoZygote
+using ..Experimental: Experimental
 
 for f in (:TrainState, :apply_gradients, :compute_gradients)
     msg = "`Lux.Training.$(f)` has been deprecated in favor of `Lux.Experimental.$(f)`"
@@ -35,6 +43,8 @@ for f in (:TrainState, :apply_gradients, :compute_gradients)
         end
     end
 end
+
+export AutoEnzyme, AutoReverseDiff, AutoTracker, AutoZygote
 
 end
 

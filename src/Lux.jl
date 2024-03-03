@@ -3,19 +3,29 @@ module Lux
 import PrecompileTools
 
 PrecompileTools.@recompile_invalidations begin
-    using Reexport
-    using LuxCore, LuxLib, LuxDeviceUtils, WeightInitializers
-    using LinearAlgebra, Markdown, Random, SparseArrays, Statistics
-    using Adapt, ConcreteStructs, Functors, Setfield
-    using ChainRulesCore
-    using ArrayInterface, GPUArraysCore
-    import TruncatedStacktraces: TruncatedStacktraces, @truncate_stacktrace
+    using Adapt: Adapt, adapt
+    using ArrayInterface: ArrayInterface
+    using ChainRulesCore: ChainRulesCore, AbstractZero, HasReverseMode, NoTangent,
+                          ProjectTo, RuleConfig, ZeroTangent
+    using ConcreteStructs: @concrete
+    using Functors: Functors, fmap
+    using GPUArraysCore: GPUArraysCore
+    using LinearAlgebra: LinearAlgebra
+    using Markdown: @doc_str
+    using Random: Random, AbstractRNG
+    using Reexport: @reexport
+    using Setfield: Setfield, @set!
+    using Statistics: Statistics, mean
+    using WeightInitializers: WeightInitializers, glorot_uniform, ones32, randn32, zeros32
 
+    using LuxCore, LuxLib, LuxDeviceUtils, WeightInitializers
     import LuxCore: AbstractExplicitLayer, AbstractExplicitContainerLayer,
                     initialparameters, initialstates, parameterlength, statelength,
                     inputsize, outputsize, update_state, trainmode, testmode, setup, apply,
                     display_name, replicate
-    import LuxDeviceUtils: AbstractLuxDevice, AbstractLuxGPUDevice, AbstractLuxDeviceAdaptor
+    import LuxDeviceUtils: get_device
+
+    import TruncatedStacktraces: TruncatedStacktraces, @truncate_stacktrace
 end
 
 @reexport using LuxCore, LuxLib, LuxDeviceUtils, WeightInitializers

@@ -1,17 +1,18 @@
 module LuxComponentArraysReverseDiffExt
 
-using ComponentArrays, ReverseDiff, Lux
+using ComponentArrays: ComponentArray
+using Lux: Lux
+using ReverseDiff: TrackedArray, value
 
-const TCA{V, D, N, DA, A, Ax} = ReverseDiff.TrackedArray{
-    V, D, N, ComponentArray{V, N, A, Ax}, DA}
+const TCA{V, D, N, DA, A, Ax} = TrackedArray{V, D, N, ComponentArray{V, N, A, Ax}, DA}
 
 @inline function Lux._getproperty(x::TCA, ::Val{prop}) where {prop}
-    return prop in propertynames(ReverseDiff.value(x)) ? getproperty(x, prop) : nothing
+    return prop in propertynames(value(x)) ? getproperty(x, prop) : nothing
 end
 
 # Freezing
 function _get_named_tuple(x::TCA)
-    fields = propertynames(ReverseDiff.value(x))
+    fields = propertynames(value(x))
     return NamedTuple{fields}(getproperty.((x,), fields))
 end
 

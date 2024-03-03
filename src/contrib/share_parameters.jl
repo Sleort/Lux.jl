@@ -76,7 +76,7 @@ _parameter_structure(::Number) = 1
 _parameter_structure(ps) = fmap(_parameter_structure, ps)
 
 function _assert_disjoint_sharing_list(sharing)
-    for i in 1:length(sharing), j in (i + 1):length(sharing)
+    for i in eachindex(sharing), j in (i + 1):length(sharing)
         if !isdisjoint(sharing[i], sharing[j])
             throw(ArgumentError("sharing[$i] ($(sharing[i])) and sharing[$j] " *
                                 "($(sharing[j])) must be disjoint"))

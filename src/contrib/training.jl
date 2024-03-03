@@ -1,5 +1,3 @@
-using ADTypes, ConcreteStructs, Optimisers, Random, Setfield
-
 """
     TrainState
 
@@ -38,9 +36,9 @@ Constructor for `TrainState`.
 
 `TrainState` object.
 """
-function TrainState(rng::Random.AbstractRNG, model::Lux.AbstractExplicitLayer,
+function TrainState(rng::Random.AbstractRNG, model::AbstractExplicitLayer,
         optimizer::Optimisers.AbstractRule;
-        transform_variables::Union{Function, Lux.AbstractLuxDevice}=gpu_device())
+        transform_variables::Union{Function, AbstractLuxDevice}=gpu_device())
     ps, st = Lux.setup(rng, model) .|> transform_variables
     st_opt = Optimisers.setup(optimizer, ps)
     return TrainState(model, ps, st, st_opt, 0)
@@ -90,7 +88,7 @@ A 4-Tuple containing:
   - `stats`: Any computed statistics from the objective function.
   - `ts`: Updated Training State.
 """
-function compute_gradients(ad::ADTypes.AbstractADType, ::Function, _, ::TrainState)
+function compute_gradients(ad::ADTypes.AbstractADType, ::F, _, ::TrainState) where {F}
     return __maybe_implemented_compute_gradients(ad)
 end
 

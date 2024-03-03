@@ -1,8 +1,11 @@
 module LuxComponentArraysExt
 
-using ComponentArrays, Functors, Lux, Optimisers
-import TruncatedStacktraces: @truncate_stacktrace
 import ChainRulesCore as CRC
+using ComponentArrays: ComponentArrays, ComponentArray, FlatAxis, getaxes, getdata
+using Functors: Functors
+import Lux
+using Optimisers: Optimisers, AbstractRule
+using TruncatedStacktraces: @truncate_stacktrace
 
 @generated function Lux._getproperty(x::ComponentArray{T, N, A, Tuple{Ax}},
         ::Val{v}) where {v, T, N, A, Ax <: ComponentArrays.AbstractAxis}

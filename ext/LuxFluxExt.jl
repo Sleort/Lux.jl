@@ -1,23 +1,24 @@
 module LuxFluxExt
 
 import Flux
-
-using Lux, Random, Optimisers
+using Lux
+using Random: AbstractRNG
+using Optimisers: destructure
 import Lux: __from_flux_adaptor, FluxLayer, FluxModelConversionError
 
 __copy_anonymous_closure(x) = (args...) -> x
 
 function FluxLayer(l)
-    p, re = Optimisers.destructure(l)
+    p, re = destructure(l)
     p_ = copy(p)
-    return FluxLayer(l, re, () -> p_)
+    return Lux.FluxLayer(l, re, () -> p_)
 end
 
-Lux.initialparameters(::AbstractRNG, l::FluxLayer) = (p=l.init_parameters(),)
+Lux.initialparameters(::AbstractRNG, l::Lux.FluxLayer) = (p=l.init_parameters(),)
 
 (l::FluxLayer)(x, ps, st) = l.re(ps.p)(x), st
 
-Base.show(io::IO, l::FluxLayer) = print(io, "FluxLayer($(l.layer))")
+Base.show(io::IO, l::Lux.FluxLayer) = print(io, "FluxLayer($(l.layer))")
 
 function __from_flux_adaptor(l::T; preserve_ps_st::Bool=false, kwargs...) where {T}
     @warn "Transformation for type $T not implemented. Using `FluxLayer` as a \
