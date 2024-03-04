@@ -236,231 +236,231 @@ ps_trained, st_trained = main()
 ```
 ┌ Warning: `replicate` doesn't work for `TaskLocalRNG`. Returning the same `TaskLocalRNG`.
 └ @ LuxCore ~/.cache/julia-buildkite-plugin/depots/01872db4-8c79-43af-ab7d-12abac4f24f6/packages/LuxCore/t4mG0/src/LuxCore.jl:13
-Epoch [1]: Loss 0.5615842
-Epoch [1]: Loss 0.51270664
-Epoch [1]: Loss 0.46934727
-Epoch [1]: Loss 0.45120928
-Epoch [1]: Loss 0.43895102
-Epoch [1]: Loss 0.41273075
-Epoch [1]: Loss 0.38538027
-Validation: Loss 0.37414372 Accuracy 1.0
-Validation: Loss 0.37538657 Accuracy 1.0
-Epoch [2]: Loss 0.36136538
-Epoch [2]: Loss 0.35638463
-Epoch [2]: Loss 0.34529662
-Epoch [2]: Loss 0.32158917
-Epoch [2]: Loss 0.29737282
-Epoch [2]: Loss 0.29149896
-Epoch [2]: Loss 0.2764268
-Validation: Loss 0.26282752 Accuracy 1.0
-Validation: Loss 0.26293993 Accuracy 1.0
-Epoch [3]: Loss 0.26222202
-Epoch [3]: Loss 0.24666908
-Epoch [3]: Loss 0.2311269
-Epoch [3]: Loss 0.22231871
-Epoch [3]: Loss 0.21492006
-Epoch [3]: Loss 0.2037428
-Epoch [3]: Loss 0.19287035
-Validation: Loss 0.18387413 Accuracy 1.0
-Validation: Loss 0.18349576 Accuracy 1.0
-Epoch [4]: Loss 0.18130685
-Epoch [4]: Loss 0.17352544
-Epoch [4]: Loss 0.16936329
-Epoch [4]: Loss 0.15631807
-Epoch [4]: Loss 0.15165442
-Epoch [4]: Loss 0.14192593
-Epoch [4]: Loss 0.14128473
-Validation: Loss 0.13175485 Accuracy 1.0
-Validation: Loss 0.13135788 Accuracy 1.0
-Epoch [5]: Loss 0.13216706
-Epoch [5]: Loss 0.12572189
-Epoch [5]: Loss 0.11954362
-Epoch [5]: Loss 0.11466796
-Epoch [5]: Loss 0.108803555
-Epoch [5]: Loss 0.10375823
-Epoch [5]: Loss 0.10074419
-Validation: Loss 0.09636645 Accuracy 1.0
-Validation: Loss 0.09607629 Accuracy 1.0
-Epoch [6]: Loss 0.0984276
-Epoch [6]: Loss 0.08995168
-Epoch [6]: Loss 0.08758517
-Epoch [6]: Loss 0.08325355
-Epoch [6]: Loss 0.080650225
-Epoch [6]: Loss 0.07727011
-Epoch [6]: Loss 0.0748848
-Validation: Loss 0.07144948 Accuracy 1.0
-Validation: Loss 0.07132534 Accuracy 1.0
-Epoch [7]: Loss 0.06980403
-Epoch [7]: Loss 0.069127224
-Epoch [7]: Loss 0.06364802
-Epoch [7]: Loss 0.0609722
-Epoch [7]: Loss 0.06231652
-Epoch [7]: Loss 0.05699496
-Epoch [7]: Loss 0.060755096
-Validation: Loss 0.053505115 Accuracy 1.0
-Validation: Loss 0.053494334 Accuracy 1.0
-Epoch [8]: Loss 0.05282244
-Epoch [8]: Loss 0.051415455
-Epoch [8]: Loss 0.04788196
-Epoch [8]: Loss 0.046166807
-Epoch [8]: Loss 0.04623215
-Epoch [8]: Loss 0.042947493
-Epoch [8]: Loss 0.04245136
-Validation: Loss 0.040309545 Accuracy 1.0
-Validation: Loss 0.040393963 Accuracy 1.0
-Epoch [9]: Loss 0.04040468
-Epoch [9]: Loss 0.037485715
-Epoch [9]: Loss 0.036337063
-Epoch [9]: Loss 0.036194593
-Epoch [9]: Loss 0.03354699
-Epoch [9]: Loss 0.032964103
-Epoch [9]: Loss 0.03212768
-Validation: Loss 0.03077174 Accuracy 1.0
-Validation: Loss 0.030905707 Accuracy 1.0
-Epoch [10]: Loss 0.031315815
-Epoch [10]: Loss 0.02973275
-Epoch [10]: Loss 0.028323352
-Epoch [10]: Loss 0.026510023
-Epoch [10]: Loss 0.026485758
-Epoch [10]: Loss 0.024878696
-Epoch [10]: Loss 0.022911772
-Validation: Loss 0.024146296 Accuracy 1.0
-Validation: Loss 0.02430253 Accuracy 1.0
-Epoch [11]: Loss 0.023434596
-Epoch [11]: Loss 0.02282546
-Epoch [11]: Loss 0.023431903
-Epoch [11]: Loss 0.02172491
-Epoch [11]: Loss 0.020843957
-Epoch [11]: Loss 0.019788107
-Epoch [11]: Loss 0.020540228
-Validation: Loss 0.019629054 Accuracy 1.0
-Validation: Loss 0.01976512 Accuracy 1.0
-Epoch [12]: Loss 0.020032618
-Epoch [12]: Loss 0.01972054
-Epoch [12]: Loss 0.018057263
-Epoch [12]: Loss 0.017380096
-Epoch [12]: Loss 0.016987957
-Epoch [12]: Loss 0.016558662
-Epoch [12]: Loss 0.016175784
-Validation: Loss 0.01646344 Accuracy 1.0
-Validation: Loss 0.01658485 Accuracy 1.0
-Epoch [13]: Loss 0.017847793
-Epoch [13]: Loss 0.015486909
-Epoch [13]: Loss 0.016052183
-Epoch [13]: Loss 0.014344658
-Epoch [13]: Loss 0.013810993
-Epoch [13]: Loss 0.014851287
-Epoch [13]: Loss 0.0126214065
-Validation: Loss 0.01419069 Accuracy 1.0
-Validation: Loss 0.014299323 Accuracy 1.0
-Epoch [14]: Loss 0.013620775
-Epoch [14]: Loss 0.01414828
-Epoch [14]: Loss 0.013892238
-Epoch [14]: Loss 0.01324922
-Epoch [14]: Loss 0.0126684485
-Epoch [14]: Loss 0.012922122
-Epoch [14]: Loss 0.009902682
-Validation: Loss 0.01250398 Accuracy 1.0
-Validation: Loss 0.012610007 Accuracy 1.0
-Epoch [15]: Loss 0.01221917
-Epoch [15]: Loss 0.0124797635
-Epoch [15]: Loss 0.011836322
-Epoch [15]: Loss 0.011904255
-Epoch [15]: Loss 0.011047113
-Epoch [15]: Loss 0.01105872
-Epoch [15]: Loss 0.011888342
-Validation: Loss 0.011192732 Accuracy 1.0
-Validation: Loss 0.011271488 Accuracy 1.0
-Epoch [16]: Loss 0.010849124
-Epoch [16]: Loss 0.011026792
-Epoch [16]: Loss 0.009804585
-Epoch [16]: Loss 0.010664158
-Epoch [16]: Loss 0.010697834
-Epoch [16]: Loss 0.010340735
-Epoch [16]: Loss 0.01048292
-Validation: Loss 0.010120397 Accuracy 1.0
-Validation: Loss 0.010207268 Accuracy 1.0
-Epoch [17]: Loss 0.008666286
-Epoch [17]: Loss 0.01014933
-Epoch [17]: Loss 0.010673643
-Epoch [17]: Loss 0.00899405
-Epoch [17]: Loss 0.009725457
-Epoch [17]: Loss 0.009282693
-Epoch [17]: Loss 0.009492885
-Validation: Loss 0.00923541 Accuracy 1.0
-Validation: Loss 0.009297335 Accuracy 1.0
-Epoch [18]: Loss 0.008736304
-Epoch [18]: Loss 0.008569973
-Epoch [18]: Loss 0.009043861
-Epoch [18]: Loss 0.0088172695
-Epoch [18]: Loss 0.008310294
-Epoch [18]: Loss 0.0090244785
-Epoch [18]: Loss 0.008945955
-Validation: Loss 0.008475063 Accuracy 1.0
-Validation: Loss 0.008553696 Accuracy 1.0
-Epoch [19]: Loss 0.0078874305
-Epoch [19]: Loss 0.008138549
-Epoch [19]: Loss 0.008532291
-Epoch [19]: Loss 0.007554755
-Epoch [19]: Loss 0.008147682
-Epoch [19]: Loss 0.008238723
-Epoch [19]: Loss 0.0073670316
-Validation: Loss 0.007826131 Accuracy 1.0
-Validation: Loss 0.007878842 Accuracy 1.0
-Epoch [20]: Loss 0.0076576276
-Epoch [20]: Loss 0.007260156
-Epoch [20]: Loss 0.00797863
-Epoch [20]: Loss 0.0072805085
-Epoch [20]: Loss 0.00749382
-Epoch [20]: Loss 0.0070445454
-Epoch [20]: Loss 0.0074651996
-Validation: Loss 0.00725755 Accuracy 1.0
-Validation: Loss 0.007327594 Accuracy 1.0
-Epoch [21]: Loss 0.0073763514
-Epoch [21]: Loss 0.0067198696
-Epoch [21]: Loss 0.007289071
-Epoch [21]: Loss 0.0068557933
-Epoch [21]: Loss 0.006737641
-Epoch [21]: Loss 0.00655994
-Epoch [21]: Loss 0.0069276085
-Validation: Loss 0.006758742 Accuracy 1.0
-Validation: Loss 0.006806784 Accuracy 1.0
-Epoch [22]: Loss 0.0069826054
-Epoch [22]: Loss 0.006477653
-Epoch [22]: Loss 0.006426408
-Epoch [22]: Loss 0.0063648503
-Epoch [22]: Loss 0.006657618
-Epoch [22]: Loss 0.005866644
-Epoch [22]: Loss 0.0062701236
-Validation: Loss 0.0063146558 Accuracy 1.0
-Validation: Loss 0.006373492 Accuracy 1.0
-Epoch [23]: Loss 0.0060657696
-Epoch [23]: Loss 0.006162966
-Epoch [23]: Loss 0.006112942
-Epoch [23]: Loss 0.005899852
-Epoch [23]: Loss 0.0059551364
-Epoch [23]: Loss 0.0057486044
-Epoch [23]: Loss 0.0071944064
-Validation: Loss 0.0059216246 Accuracy 1.0
-Validation: Loss 0.0059685195 Accuracy 1.0
-Epoch [24]: Loss 0.006122802
-Epoch [24]: Loss 0.0055973367
-Epoch [24]: Loss 0.0056971107
-Epoch [24]: Loss 0.0059936666
-Epoch [24]: Loss 0.0051995283
-Epoch [24]: Loss 0.0054764543
-Epoch [24]: Loss 0.005353873
-Validation: Loss 0.0055647735 Accuracy 1.0
-Validation: Loss 0.005614071 Accuracy 1.0
-Epoch [25]: Loss 0.00547022
-Epoch [25]: Loss 0.005307231
-Epoch [25]: Loss 0.005742235
-Epoch [25]: Loss 0.0050484333
-Epoch [25]: Loss 0.0053463527
-Epoch [25]: Loss 0.0049458733
-Epoch [25]: Loss 0.005864639
-Validation: Loss 0.005246535 Accuracy 1.0
-Validation: Loss 0.005289743 Accuracy 1.0
+Epoch [1]: Loss 0.5628675
+Epoch [1]: Loss 0.5119977
+Epoch [1]: Loss 0.4728254
+Epoch [1]: Loss 0.4555329
+Epoch [1]: Loss 0.41948837
+Epoch [1]: Loss 0.40569782
+Epoch [1]: Loss 0.383585
+Validation: Loss 0.37372476 Accuracy 1.0
+Validation: Loss 0.37338188 Accuracy 1.0
+Epoch [2]: Loss 0.37543058
+Epoch [2]: Loss 0.34196275
+Epoch [2]: Loss 0.33541268
+Epoch [2]: Loss 0.31153625
+Epoch [2]: Loss 0.3031516
+Epoch [2]: Loss 0.29064986
+Epoch [2]: Loss 0.26962194
+Validation: Loss 0.26145047 Accuracy 1.0
+Validation: Loss 0.26151827 Accuracy 1.0
+Epoch [3]: Loss 0.25731367
+Epoch [3]: Loss 0.24292366
+Epoch [3]: Loss 0.23401418
+Epoch [3]: Loss 0.22457357
+Epoch [3]: Loss 0.21166581
+Epoch [3]: Loss 0.1959871
+Epoch [3]: Loss 0.18628529
+Validation: Loss 0.18147554 Accuracy 1.0
+Validation: Loss 0.181658 Accuracy 1.0
+Epoch [4]: Loss 0.17902184
+Epoch [4]: Loss 0.1711165
+Epoch [4]: Loss 0.16301656
+Epoch [4]: Loss 0.15399471
+Epoch [4]: Loss 0.14642717
+Epoch [4]: Loss 0.14235383
+Epoch [4]: Loss 0.13550887
+Validation: Loss 0.12900752 Accuracy 1.0
+Validation: Loss 0.1291565 Accuracy 1.0
+Epoch [5]: Loss 0.12687638
+Epoch [5]: Loss 0.12170105
+Epoch [5]: Loss 0.116760775
+Epoch [5]: Loss 0.111698166
+Epoch [5]: Loss 0.107624255
+Epoch [5]: Loss 0.10008188
+Epoch [5]: Loss 0.09774242
+Validation: Loss 0.093667306 Accuracy 1.0
+Validation: Loss 0.09377551 Accuracy 1.0
+Epoch [6]: Loss 0.093345374
+Epoch [6]: Loss 0.08720921
+Epoch [6]: Loss 0.087059036
+Epoch [6]: Loss 0.07970849
+Epoch [6]: Loss 0.077803254
+Epoch [6]: Loss 0.07376104
+Epoch [6]: Loss 0.07203657
+Validation: Loss 0.06915274 Accuracy 1.0
+Validation: Loss 0.06922646 Accuracy 1.0
+Epoch [7]: Loss 0.07000205
+Epoch [7]: Loss 0.06508204
+Epoch [7]: Loss 0.0613546
+Epoch [7]: Loss 0.060703266
+Epoch [7]: Loss 0.059507474
+Epoch [7]: Loss 0.052968398
+Epoch [7]: Loss 0.050128296
+Validation: Loss 0.051669605 Accuracy 1.0
+Validation: Loss 0.05171901 Accuracy 1.0
+Epoch [8]: Loss 0.05037313
+Epoch [8]: Loss 0.047893904
+Epoch [8]: Loss 0.046697255
+Epoch [8]: Loss 0.04469424
+Epoch [8]: Loss 0.043943267
+Epoch [8]: Loss 0.04143489
+Epoch [8]: Loss 0.041350797
+Validation: Loss 0.039024524 Accuracy 1.0
+Validation: Loss 0.039043937 Accuracy 1.0
+Epoch [9]: Loss 0.038401067
+Epoch [9]: Loss 0.036639035
+Epoch [9]: Loss 0.03417008
+Epoch [9]: Loss 0.0333322
+Epoch [9]: Loss 0.033617884
+Epoch [9]: Loss 0.03140834
+Epoch [9]: Loss 0.031438235
+Validation: Loss 0.029920463 Accuracy 1.0
+Validation: Loss 0.029922746 Accuracy 1.0
+Epoch [10]: Loss 0.029573962
+Epoch [10]: Loss 0.027335634
+Epoch [10]: Loss 0.027300388
+Epoch [10]: Loss 0.025966667
+Epoch [10]: Loss 0.024902333
+Epoch [10]: Loss 0.024816219
+Epoch [10]: Loss 0.024321552
+Validation: Loss 0.023595005 Accuracy 1.0
+Validation: Loss 0.02357648 Accuracy 1.0
+Epoch [11]: Loss 0.023073949
+Epoch [11]: Loss 0.021690156
+Epoch [11]: Loss 0.02177171
+Epoch [11]: Loss 0.02013648
+Epoch [11]: Loss 0.021036316
+Epoch [11]: Loss 0.020027583
+Epoch [11]: Loss 0.017281188
+Validation: Loss 0.019222993 Accuracy 1.0
+Validation: Loss 0.019203184 Accuracy 1.0
+Epoch [12]: Loss 0.018354513
+Epoch [12]: Loss 0.01881507
+Epoch [12]: Loss 0.018577676
+Epoch [12]: Loss 0.014990501
+Epoch [12]: Loss 0.01703481
+Epoch [12]: Loss 0.016969122
+Epoch [12]: Loss 0.01607458
+Validation: Loss 0.01617828 Accuracy 1.0
+Validation: Loss 0.016155371 Accuracy 1.0
+Epoch [13]: Loss 0.015956432
+Epoch [13]: Loss 0.015128081
+Epoch [13]: Loss 0.01521128
+Epoch [13]: Loss 0.013981636
+Epoch [13]: Loss 0.014477943
+Epoch [13]: Loss 0.0139561575
+Epoch [13]: Loss 0.014596927
+Validation: Loss 0.013974616 Accuracy 1.0
+Validation: Loss 0.013953558 Accuracy 1.0
+Epoch [14]: Loss 0.013869691
+Epoch [14]: Loss 0.012413105
+Epoch [14]: Loss 0.014160939
+Epoch [14]: Loss 0.012944266
+Epoch [14]: Loss 0.012019176
+Epoch [14]: Loss 0.011968395
+Epoch [14]: Loss 0.012105623
+Validation: Loss 0.012314909 Accuracy 1.0
+Validation: Loss 0.012296395 Accuracy 1.0
+Epoch [15]: Loss 0.011724299
+Epoch [15]: Loss 0.011771173
+Epoch [15]: Loss 0.012315014
+Epoch [15]: Loss 0.011467608
+Epoch [15]: Loss 0.010834159
+Epoch [15]: Loss 0.010211762
+Epoch [15]: Loss 0.0117722275
+Validation: Loss 0.011020707 Accuracy 1.0
+Validation: Loss 0.011003961 Accuracy 1.0
+Epoch [16]: Loss 0.010556351
+Epoch [16]: Loss 0.010859212
+Epoch [16]: Loss 0.010274036
+Epoch [16]: Loss 0.009528779
+Epoch [16]: Loss 0.010381801
+Epoch [16]: Loss 0.009826366
+Epoch [16]: Loss 0.010363013
+Validation: Loss 0.009973452 Accuracy 1.0
+Validation: Loss 0.0099579375 Accuracy 1.0
+Epoch [17]: Loss 0.009545741
+Epoch [17]: Loss 0.00907085
+Epoch [17]: Loss 0.009525473
+Epoch [17]: Loss 0.009454982
+Epoch [17]: Loss 0.009373775
+Epoch [17]: Loss 0.008960759
+Epoch [17]: Loss 0.008696445
+Validation: Loss 0.009101026 Accuracy 1.0
+Validation: Loss 0.009087931 Accuracy 1.0
+Epoch [18]: Loss 0.00886647
+Epoch [18]: Loss 0.008787328
+Epoch [18]: Loss 0.009243023
+Epoch [18]: Loss 0.008214571
+Epoch [18]: Loss 0.0076314434
+Epoch [18]: Loss 0.008667259
+Epoch [18]: Loss 0.0070915767
+Validation: Loss 0.008365732 Accuracy 1.0
+Validation: Loss 0.008352558 Accuracy 1.0
+Epoch [19]: Loss 0.007907672
+Epoch [19]: Loss 0.00761619
+Epoch [19]: Loss 0.00840299
+Epoch [19]: Loss 0.0080338
+Epoch [19]: Loss 0.007377775
+Epoch [19]: Loss 0.0076204306
+Epoch [19]: Loss 0.008007531
+Validation: Loss 0.007735743 Accuracy 1.0
+Validation: Loss 0.0077239797 Accuracy 1.0
+Epoch [20]: Loss 0.007529175
+Epoch [20]: Loss 0.0068568
+Epoch [20]: Loss 0.007222345
+Epoch [20]: Loss 0.0075053805
+Epoch [20]: Loss 0.0070357267
+Epoch [20]: Loss 0.00731463
+Epoch [20]: Loss 0.007454876
+Validation: Loss 0.0071848948 Accuracy 1.0
+Validation: Loss 0.007173905 Accuracy 1.0
+Epoch [21]: Loss 0.0069283014
+Epoch [21]: Loss 0.0067212963
+Epoch [21]: Loss 0.0071410555
+Epoch [21]: Loss 0.006468824
+Epoch [21]: Loss 0.0066477903
+Epoch [21]: Loss 0.006722225
+Epoch [21]: Loss 0.0061233756
+Validation: Loss 0.006697979 Accuracy 1.0
+Validation: Loss 0.006687302 Accuracy 1.0
+Epoch [22]: Loss 0.0065204594
+Epoch [22]: Loss 0.0064018564
+Epoch [22]: Loss 0.0063233306
+Epoch [22]: Loss 0.006257154
+Epoch [22]: Loss 0.00612626
+Epoch [22]: Loss 0.0060109203
+Epoch [22]: Loss 0.006831098
+Validation: Loss 0.0062671085 Accuracy 1.0
+Validation: Loss 0.0062571084 Accuracy 1.0
+Epoch [23]: Loss 0.005899299
+Epoch [23]: Loss 0.0059287073
+Epoch [23]: Loss 0.006069382
+Epoch [23]: Loss 0.0058368184
+Epoch [23]: Loss 0.005905709
+Epoch [23]: Loss 0.0057220366
+Epoch [23]: Loss 0.0059304084
+Validation: Loss 0.0058799293 Accuracy 1.0
+Validation: Loss 0.005870852 Accuracy 1.0
+Epoch [24]: Loss 0.0059624296
+Epoch [24]: Loss 0.005644123
+Epoch [24]: Loss 0.005252685
+Epoch [24]: Loss 0.005674094
+Epoch [24]: Loss 0.0055454993
+Epoch [24]: Loss 0.005342222
+Epoch [24]: Loss 0.0047793943
+Validation: Loss 0.005532252 Accuracy 1.0
+Validation: Loss 0.0055238474 Accuracy 1.0
+Epoch [25]: Loss 0.0053423764
+Epoch [25]: Loss 0.005325867
+Epoch [25]: Loss 0.0048880787
+Epoch [25]: Loss 0.005470786
+Epoch [25]: Loss 0.0048747817
+Epoch [25]: Loss 0.0052728066
+Epoch [25]: Loss 0.0056866915
+Validation: Loss 0.005222696 Accuracy 1.0
+Validation: Loss 0.0052142283 Accuracy 1.0
 
 ```
 
@@ -521,7 +521,7 @@ Threads: 48 default, 0 interactive, 24 GC (on 2 virtual cores)
 Environment:
   LD_LIBRARY_PATH = /usr/local/nvidia/lib:/usr/local/nvidia/lib64
   JULIA_DEPOT_PATH = /root/.cache/julia-buildkite-plugin/depots/01872db4-8c79-43af-ab7d-12abac4f24f6
-  JULIA_PROJECT = /var/lib/buildkite-agent/builds/gpuci-12/julialang/lux-dot-jl/docs/Project.toml
+  JULIA_PROJECT = /var/lib/buildkite-agent/builds/gpuci-6/julialang/lux-dot-jl/docs/Project.toml
   JULIA_AMDGPU_LOGGING_ENABLED = true
   JULIA_DEBUG = Literate
   JULIA_CPU_THREADS = 2
@@ -555,7 +555,7 @@ Environment:
 - JULIA_CUDA_HARD_MEMORY_LIMIT: 25%
 
 1 device:
-  0: NVIDIA A100-PCIE-40GB MIG 1g.5gb (sm_80, 4.328 GiB / 4.750 GiB available)
+  0: NVIDIA A100-PCIE-40GB MIG 1g.5gb (sm_80, 4.224 GiB / 4.750 GiB available)
 ┌ Warning: LuxAMDGPU is loaded but the AMDGPU is not functional.
 └ @ LuxAMDGPU ~/.cache/julia-buildkite-plugin/depots/01872db4-8c79-43af-ab7d-12abac4f24f6/packages/LuxAMDGPU/sGa0S/src/LuxAMDGPU.jl:19
 
