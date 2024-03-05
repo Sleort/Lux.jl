@@ -208,231 +208,231 @@
         - ````
         - ┌ Warning: `replicate` doesn't work for `TaskLocalRNG`. Returning the same `TaskLocalRNG`.
         - └ @ LuxCore ~/.cache/julia-buildkite-plugin/depots/01872db4-8c79-43af-ab7d-12abac4f24f6/packages/LuxCore/t4mG0/src/LuxCore.jl:13
-        - Epoch [1]: Loss 0.5628675
-        - Epoch [1]: Loss 0.5119977
-        - Epoch [1]: Loss 0.4728254
-        - Epoch [1]: Loss 0.4555329
-        - Epoch [1]: Loss 0.41948837
-        - Epoch [1]: Loss 0.40569782
-        - Epoch [1]: Loss 0.383585
-        - Validation: Loss 0.37372476 Accuracy 1.0
-        - Validation: Loss 0.37338188 Accuracy 1.0
-        - Epoch [2]: Loss 0.37543058
-        - Epoch [2]: Loss 0.34196275
-        - Epoch [2]: Loss 0.33541268
-        - Epoch [2]: Loss 0.31153625
-        - Epoch [2]: Loss 0.3031516
-        - Epoch [2]: Loss 0.29064986
-        - Epoch [2]: Loss 0.26962194
-        - Validation: Loss 0.26145047 Accuracy 1.0
-        - Validation: Loss 0.26151827 Accuracy 1.0
-        - Epoch [3]: Loss 0.25731367
-        - Epoch [3]: Loss 0.24292366
-        - Epoch [3]: Loss 0.23401418
-        - Epoch [3]: Loss 0.22457357
-        - Epoch [3]: Loss 0.21166581
-        - Epoch [3]: Loss 0.1959871
-        - Epoch [3]: Loss 0.18628529
-        - Validation: Loss 0.18147554 Accuracy 1.0
-        - Validation: Loss 0.181658 Accuracy 1.0
-        - Epoch [4]: Loss 0.17902184
-        - Epoch [4]: Loss 0.1711165
-        - Epoch [4]: Loss 0.16301656
-        - Epoch [4]: Loss 0.15399471
-        - Epoch [4]: Loss 0.14642717
-        - Epoch [4]: Loss 0.14235383
-        - Epoch [4]: Loss 0.13550887
-        - Validation: Loss 0.12900752 Accuracy 1.0
-        - Validation: Loss 0.1291565 Accuracy 1.0
-        - Epoch [5]: Loss 0.12687638
-        - Epoch [5]: Loss 0.12170105
-        - Epoch [5]: Loss 0.116760775
-        - Epoch [5]: Loss 0.111698166
-        - Epoch [5]: Loss 0.107624255
-        - Epoch [5]: Loss 0.10008188
-        - Epoch [5]: Loss 0.09774242
-        - Validation: Loss 0.093667306 Accuracy 1.0
-        - Validation: Loss 0.09377551 Accuracy 1.0
-        - Epoch [6]: Loss 0.093345374
-        - Epoch [6]: Loss 0.08720921
-        - Epoch [6]: Loss 0.087059036
-        - Epoch [6]: Loss 0.07970849
-        - Epoch [6]: Loss 0.077803254
-        - Epoch [6]: Loss 0.07376104
-        - Epoch [6]: Loss 0.07203657
-        - Validation: Loss 0.06915274 Accuracy 1.0
-        - Validation: Loss 0.06922646 Accuracy 1.0
-        - Epoch [7]: Loss 0.07000205
-        - Epoch [7]: Loss 0.06508204
-        - Epoch [7]: Loss 0.0613546
-        - Epoch [7]: Loss 0.060703266
-        - Epoch [7]: Loss 0.059507474
-        - Epoch [7]: Loss 0.052968398
-        - Epoch [7]: Loss 0.050128296
-        - Validation: Loss 0.051669605 Accuracy 1.0
-        - Validation: Loss 0.05171901 Accuracy 1.0
-        - Epoch [8]: Loss 0.05037313
-        - Epoch [8]: Loss 0.047893904
-        - Epoch [8]: Loss 0.046697255
-        - Epoch [8]: Loss 0.04469424
-        - Epoch [8]: Loss 0.043943267
-        - Epoch [8]: Loss 0.04143489
-        - Epoch [8]: Loss 0.041350797
-        - Validation: Loss 0.039024524 Accuracy 1.0
-        - Validation: Loss 0.039043937 Accuracy 1.0
-        - Epoch [9]: Loss 0.038401067
-        - Epoch [9]: Loss 0.036639035
-        - Epoch [9]: Loss 0.03417008
-        - Epoch [9]: Loss 0.0333322
-        - Epoch [9]: Loss 0.033617884
-        - Epoch [9]: Loss 0.03140834
-        - Epoch [9]: Loss 0.031438235
-        - Validation: Loss 0.029920463 Accuracy 1.0
-        - Validation: Loss 0.029922746 Accuracy 1.0
-        - Epoch [10]: Loss 0.029573962
-        - Epoch [10]: Loss 0.027335634
-        - Epoch [10]: Loss 0.027300388
-        - Epoch [10]: Loss 0.025966667
-        - Epoch [10]: Loss 0.024902333
-        - Epoch [10]: Loss 0.024816219
-        - Epoch [10]: Loss 0.024321552
-        - Validation: Loss 0.023595005 Accuracy 1.0
-        - Validation: Loss 0.02357648 Accuracy 1.0
-        - Epoch [11]: Loss 0.023073949
-        - Epoch [11]: Loss 0.021690156
-        - Epoch [11]: Loss 0.02177171
-        - Epoch [11]: Loss 0.02013648
-        - Epoch [11]: Loss 0.021036316
-        - Epoch [11]: Loss 0.020027583
-        - Epoch [11]: Loss 0.017281188
-        - Validation: Loss 0.019222993 Accuracy 1.0
-        - Validation: Loss 0.019203184 Accuracy 1.0
-        - Epoch [12]: Loss 0.018354513
-        - Epoch [12]: Loss 0.01881507
-        - Epoch [12]: Loss 0.018577676
-        - Epoch [12]: Loss 0.014990501
-        - Epoch [12]: Loss 0.01703481
-        - Epoch [12]: Loss 0.016969122
-        - Epoch [12]: Loss 0.01607458
-        - Validation: Loss 0.01617828 Accuracy 1.0
-        - Validation: Loss 0.016155371 Accuracy 1.0
-        - Epoch [13]: Loss 0.015956432
-        - Epoch [13]: Loss 0.015128081
-        - Epoch [13]: Loss 0.01521128
-        - Epoch [13]: Loss 0.013981636
-        - Epoch [13]: Loss 0.014477943
-        - Epoch [13]: Loss 0.0139561575
-        - Epoch [13]: Loss 0.014596927
-        - Validation: Loss 0.013974616 Accuracy 1.0
-        - Validation: Loss 0.013953558 Accuracy 1.0
-        - Epoch [14]: Loss 0.013869691
-        - Epoch [14]: Loss 0.012413105
-        - Epoch [14]: Loss 0.014160939
-        - Epoch [14]: Loss 0.012944266
-        - Epoch [14]: Loss 0.012019176
-        - Epoch [14]: Loss 0.011968395
-        - Epoch [14]: Loss 0.012105623
-        - Validation: Loss 0.012314909 Accuracy 1.0
-        - Validation: Loss 0.012296395 Accuracy 1.0
-        - Epoch [15]: Loss 0.011724299
-        - Epoch [15]: Loss 0.011771173
-        - Epoch [15]: Loss 0.012315014
-        - Epoch [15]: Loss 0.011467608
-        - Epoch [15]: Loss 0.010834159
-        - Epoch [15]: Loss 0.010211762
-        - Epoch [15]: Loss 0.0117722275
-        - Validation: Loss 0.011020707 Accuracy 1.0
-        - Validation: Loss 0.011003961 Accuracy 1.0
-        - Epoch [16]: Loss 0.010556351
-        - Epoch [16]: Loss 0.010859212
-        - Epoch [16]: Loss 0.010274036
-        - Epoch [16]: Loss 0.009528779
-        - Epoch [16]: Loss 0.010381801
-        - Epoch [16]: Loss 0.009826366
-        - Epoch [16]: Loss 0.010363013
-        - Validation: Loss 0.009973452 Accuracy 1.0
-        - Validation: Loss 0.0099579375 Accuracy 1.0
-        - Epoch [17]: Loss 0.009545741
-        - Epoch [17]: Loss 0.00907085
-        - Epoch [17]: Loss 0.009525473
-        - Epoch [17]: Loss 0.009454982
-        - Epoch [17]: Loss 0.009373775
-        - Epoch [17]: Loss 0.008960759
-        - Epoch [17]: Loss 0.008696445
-        - Validation: Loss 0.009101026 Accuracy 1.0
-        - Validation: Loss 0.009087931 Accuracy 1.0
-        - Epoch [18]: Loss 0.00886647
-        - Epoch [18]: Loss 0.008787328
-        - Epoch [18]: Loss 0.009243023
-        - Epoch [18]: Loss 0.008214571
-        - Epoch [18]: Loss 0.0076314434
-        - Epoch [18]: Loss 0.008667259
-        - Epoch [18]: Loss 0.0070915767
-        - Validation: Loss 0.008365732 Accuracy 1.0
-        - Validation: Loss 0.008352558 Accuracy 1.0
-        - Epoch [19]: Loss 0.007907672
-        - Epoch [19]: Loss 0.00761619
-        - Epoch [19]: Loss 0.00840299
-        - Epoch [19]: Loss 0.0080338
-        - Epoch [19]: Loss 0.007377775
-        - Epoch [19]: Loss 0.0076204306
-        - Epoch [19]: Loss 0.008007531
-        - Validation: Loss 0.007735743 Accuracy 1.0
-        - Validation: Loss 0.0077239797 Accuracy 1.0
-        - Epoch [20]: Loss 0.007529175
-        - Epoch [20]: Loss 0.0068568
-        - Epoch [20]: Loss 0.007222345
-        - Epoch [20]: Loss 0.0075053805
-        - Epoch [20]: Loss 0.0070357267
-        - Epoch [20]: Loss 0.00731463
-        - Epoch [20]: Loss 0.007454876
-        - Validation: Loss 0.0071848948 Accuracy 1.0
-        - Validation: Loss 0.007173905 Accuracy 1.0
-        - Epoch [21]: Loss 0.0069283014
-        - Epoch [21]: Loss 0.0067212963
-        - Epoch [21]: Loss 0.0071410555
-        - Epoch [21]: Loss 0.006468824
-        - Epoch [21]: Loss 0.0066477903
-        - Epoch [21]: Loss 0.006722225
-        - Epoch [21]: Loss 0.0061233756
-        - Validation: Loss 0.006697979 Accuracy 1.0
-        - Validation: Loss 0.006687302 Accuracy 1.0
-        - Epoch [22]: Loss 0.0065204594
-        - Epoch [22]: Loss 0.0064018564
-        - Epoch [22]: Loss 0.0063233306
-        - Epoch [22]: Loss 0.006257154
-        - Epoch [22]: Loss 0.00612626
-        - Epoch [22]: Loss 0.0060109203
-        - Epoch [22]: Loss 0.006831098
-        - Validation: Loss 0.0062671085 Accuracy 1.0
-        - Validation: Loss 0.0062571084 Accuracy 1.0
-        - Epoch [23]: Loss 0.005899299
-        - Epoch [23]: Loss 0.0059287073
-        - Epoch [23]: Loss 0.006069382
-        - Epoch [23]: Loss 0.0058368184
-        - Epoch [23]: Loss 0.005905709
-        - Epoch [23]: Loss 0.0057220366
-        - Epoch [23]: Loss 0.0059304084
-        - Validation: Loss 0.0058799293 Accuracy 1.0
-        - Validation: Loss 0.005870852 Accuracy 1.0
-        - Epoch [24]: Loss 0.0059624296
-        - Epoch [24]: Loss 0.005644123
-        - Epoch [24]: Loss 0.005252685
-        - Epoch [24]: Loss 0.005674094
-        - Epoch [24]: Loss 0.0055454993
-        - Epoch [24]: Loss 0.005342222
-        - Epoch [24]: Loss 0.0047793943
-        - Validation: Loss 0.005532252 Accuracy 1.0
-        - Validation: Loss 0.0055238474 Accuracy 1.0
-        - Epoch [25]: Loss 0.0053423764
-        - Epoch [25]: Loss 0.005325867
-        - Epoch [25]: Loss 0.0048880787
-        - Epoch [25]: Loss 0.005470786
-        - Epoch [25]: Loss 0.0048747817
-        - Epoch [25]: Loss 0.0052728066
-        - Epoch [25]: Loss 0.0056866915
-        - Validation: Loss 0.005222696 Accuracy 1.0
-        - Validation: Loss 0.0052142283 Accuracy 1.0
+        - Epoch [1]: Loss 0.56255734
+        - Epoch [1]: Loss 0.50656736
+        - Epoch [1]: Loss 0.47641873
+        - Epoch [1]: Loss 0.45786715
+        - Epoch [1]: Loss 0.4263529
+        - Epoch [1]: Loss 0.3937028
+        - Epoch [1]: Loss 0.3785531
+        - Validation: Loss 0.37467092 Accuracy 1.0
+        - Validation: Loss 0.36705783 Accuracy 1.0
+        - Epoch [2]: Loss 0.3707093
+        - Epoch [2]: Loss 0.35299262
+        - Epoch [2]: Loss 0.32719338
+        - Epoch [2]: Loss 0.32095045
+        - Epoch [2]: Loss 0.30118823
+        - Epoch [2]: Loss 0.27971357
+        - Epoch [2]: Loss 0.28450093
+        - Validation: Loss 0.26228875 Accuracy 1.0
+        - Validation: Loss 0.257052 Accuracy 1.0
+        - Epoch [3]: Loss 0.25885612
+        - Epoch [3]: Loss 0.24572495
+        - Epoch [3]: Loss 0.23056881
+        - Epoch [3]: Loss 0.222873
+        - Epoch [3]: Loss 0.20705411
+        - Epoch [3]: Loss 0.20266345
+        - Epoch [3]: Loss 0.17716613
+        - Validation: Loss 0.1822092 Accuracy 1.0
+        - Validation: Loss 0.17939554 Accuracy 1.0
+        - Epoch [4]: Loss 0.18029276
+        - Epoch [4]: Loss 0.17019248
+        - Epoch [4]: Loss 0.1623384
+        - Epoch [4]: Loss 0.15641534
+        - Epoch [4]: Loss 0.14854556
+        - Epoch [4]: Loss 0.14067462
+        - Epoch [4]: Loss 0.135191
+        - Validation: Loss 0.13028091 Accuracy 1.0
+        - Validation: Loss 0.12814729 Accuracy 1.0
+        - Epoch [5]: Loss 0.12928554
+        - Epoch [5]: Loss 0.12261175
+        - Epoch [5]: Loss 0.11770471
+        - Epoch [5]: Loss 0.112544656
+        - Epoch [5]: Loss 0.104796804
+        - Epoch [5]: Loss 0.10303646
+        - Epoch [5]: Loss 0.09598938
+        - Validation: Loss 0.095122255 Accuracy 1.0
+        - Validation: Loss 0.09323516 Accuracy 1.0
+        - Epoch [6]: Loss 0.09418279
+        - Epoch [6]: Loss 0.090161696
+        - Epoch [6]: Loss 0.084852606
+        - Epoch [6]: Loss 0.082885325
+        - Epoch [6]: Loss 0.07827175
+        - Epoch [6]: Loss 0.07345101
+        - Epoch [6]: Loss 0.07496974
+        - Validation: Loss 0.07064015 Accuracy 1.0
+        - Validation: Loss 0.06885963 Accuracy 1.0
+        - Epoch [7]: Loss 0.06761782
+        - Epoch [7]: Loss 0.06637053
+        - Epoch [7]: Loss 0.0647788
+        - Epoch [7]: Loss 0.060429394
+        - Epoch [7]: Loss 0.060785107
+        - Epoch [7]: Loss 0.054665655
+        - Epoch [7]: Loss 0.05274511
+        - Validation: Loss 0.053040378 Accuracy 1.0
+        - Validation: Loss 0.051423524 Accuracy 1.0
+        - Epoch [8]: Loss 0.048906557
+        - Epoch [8]: Loss 0.048716538
+        - Epoch [8]: Loss 0.047884565
+        - Epoch [8]: Loss 0.045972668
+        - Epoch [8]: Loss 0.04708582
+        - Epoch [8]: Loss 0.042179406
+        - Epoch [8]: Loss 0.039038345
+        - Validation: Loss 0.04021344 Accuracy 1.0
+        - Validation: Loss 0.03875399 Accuracy 1.0
+        - Epoch [9]: Loss 0.039081406
+        - Epoch [9]: Loss 0.03895185
+        - Epoch [9]: Loss 0.03686563
+        - Epoch [9]: Loss 0.03268171
+        - Epoch [9]: Loss 0.031901613
+        - Epoch [9]: Loss 0.03316935
+        - Epoch [9]: Loss 0.029691203
+        - Validation: Loss 0.030941665 Accuracy 1.0
+        - Validation: Loss 0.02965044 Accuracy 1.0
+        - Epoch [10]: Loss 0.029709177
+        - Epoch [10]: Loss 0.028048601
+        - Epoch [10]: Loss 0.026733324
+        - Epoch [10]: Loss 0.028029433
+        - Epoch [10]: Loss 0.026301993
+        - Epoch [10]: Loss 0.025174133
+        - Epoch [10]: Loss 0.02373847
+        - Validation: Loss 0.02449641 Accuracy 1.0
+        - Validation: Loss 0.0233607 Accuracy 1.0
+        - Epoch [11]: Loss 0.025290431
+        - Epoch [11]: Loss 0.024344418
+        - Epoch [11]: Loss 0.020847378
+        - Epoch [11]: Loss 0.022832397
+        - Epoch [11]: Loss 0.0196306
+        - Epoch [11]: Loss 0.017928813
+        - Epoch [11]: Loss 0.019814141
+        - Validation: Loss 0.020004243 Accuracy 1.0
+        - Validation: Loss 0.019036608 Accuracy 1.0
+        - Epoch [12]: Loss 0.017352574
+        - Epoch [12]: Loss 0.01912546
+        - Epoch [12]: Loss 0.01812629
+        - Epoch [12]: Loss 0.017929606
+        - Epoch [12]: Loss 0.018091278
+        - Epoch [12]: Loss 0.016869443
+        - Epoch [12]: Loss 0.017104505
+        - Validation: Loss 0.016878577 Accuracy 1.0
+        - Validation: Loss 0.016035642 Accuracy 1.0
+        - Epoch [13]: Loss 0.016781442
+        - Epoch [13]: Loss 0.016250376
+        - Epoch [13]: Loss 0.01538291
+        - Epoch [13]: Loss 0.014402876
+        - Epoch [13]: Loss 0.014049917
+        - Epoch [13]: Loss 0.014973827
+        - Epoch [13]: Loss 0.013441039
+        - Validation: Loss 0.014590812 Accuracy 1.0
+        - Validation: Loss 0.013854939 Accuracy 1.0
+        - Epoch [14]: Loss 0.014690328
+        - Epoch [14]: Loss 0.013825927
+        - Epoch [14]: Loss 0.012332775
+        - Epoch [14]: Loss 0.0128530115
+        - Epoch [14]: Loss 0.012636673
+        - Epoch [14]: Loss 0.013329097
+        - Epoch [14]: Loss 0.012936557
+        - Validation: Loss 0.012879917 Accuracy 1.0
+        - Validation: Loss 0.01222543 Accuracy 1.0
+        - Epoch [15]: Loss 0.01190214
+        - Epoch [15]: Loss 0.0123416465
+        - Epoch [15]: Loss 0.011762243
+        - Epoch [15]: Loss 0.011932416
+        - Epoch [15]: Loss 0.011072382
+        - Epoch [15]: Loss 0.011820239
+        - Epoch [15]: Loss 0.010842923
+        - Validation: Loss 0.011541071 Accuracy 1.0
+        - Validation: Loss 0.010946231 Accuracy 1.0
+        - Epoch [16]: Loss 0.010413
+        - Epoch [16]: Loss 0.01052119
+        - Epoch [16]: Loss 0.011046543
+        - Epoch [16]: Loss 0.010883839
+        - Epoch [16]: Loss 0.011121767
+        - Epoch [16]: Loss 0.009836707
+        - Epoch [16]: Loss 0.0092589315
+        - Validation: Loss 0.010449482 Accuracy 1.0
+        - Validation: Loss 0.009906645 Accuracy 1.0
+        - Epoch [17]: Loss 0.009261621
+        - Epoch [17]: Loss 0.010326296
+        - Epoch [17]: Loss 0.009368783
+        - Epoch [17]: Loss 0.009553137
+        - Epoch [17]: Loss 0.009793194
+        - Epoch [17]: Loss 0.00944276
+        - Epoch [17]: Loss 0.009261079
+        - Validation: Loss 0.009548247 Accuracy 1.0
+        - Validation: Loss 0.009046107 Accuracy 1.0
+        - Epoch [18]: Loss 0.00935084
+        - Epoch [18]: Loss 0.008669972
+        - Epoch [18]: Loss 0.008776853
+        - Epoch [18]: Loss 0.009489869
+        - Epoch [18]: Loss 0.0077761738
+        - Epoch [18]: Loss 0.008947831
+        - Epoch [18]: Loss 0.007975228
+        - Validation: Loss 0.008778958 Accuracy 1.0
+        - Validation: Loss 0.008312802 Accuracy 1.0
+        - Epoch [19]: Loss 0.008702256
+        - Epoch [19]: Loss 0.00837856
+        - Epoch [19]: Loss 0.007522632
+        - Epoch [19]: Loss 0.0076947464
+        - Epoch [19]: Loss 0.008132962
+        - Epoch [19]: Loss 0.008127911
+        - Epoch [19]: Loss 0.008354593
+        - Validation: Loss 0.008117782 Accuracy 1.0
+        - Validation: Loss 0.00768275 Accuracy 1.0
+        - Epoch [20]: Loss 0.007853792
+        - Epoch [20]: Loss 0.0075609214
+        - Epoch [20]: Loss 0.0074740844
+        - Epoch [20]: Loss 0.0070374142
+        - Epoch [20]: Loss 0.007839409
+        - Epoch [20]: Loss 0.0071297153
+        - Epoch [20]: Loss 0.007977175
+        - Validation: Loss 0.007537601 Accuracy 1.0
+        - Validation: Loss 0.0071309633 Accuracy 1.0
+        - Epoch [21]: Loss 0.007661501
+        - Epoch [21]: Loss 0.007275484
+        - Epoch [21]: Loss 0.0069254246
+        - Epoch [21]: Loss 0.0069223987
+        - Epoch [21]: Loss 0.006259223
+        - Epoch [21]: Loss 0.0068637156
+        - Epoch [21]: Loss 0.0068058837
+        - Validation: Loss 0.0070239217 Accuracy 1.0
+        - Validation: Loss 0.0066431114 Accuracy 1.0
+        - Epoch [22]: Loss 0.0068737767
+        - Epoch [22]: Loss 0.006386267
+        - Epoch [22]: Loss 0.0068468396
+        - Epoch [22]: Loss 0.006160091
+        - Epoch [22]: Loss 0.006770177
+        - Epoch [22]: Loss 0.0060961153
+        - Epoch [22]: Loss 0.0061576604
+        - Validation: Loss 0.006570245 Accuracy 1.0
+        - Validation: Loss 0.00621272 Accuracy 1.0
+        - Epoch [23]: Loss 0.006268814
+        - Epoch [23]: Loss 0.0061718207
+        - Epoch [23]: Loss 0.0061200354
+        - Epoch [23]: Loss 0.0061170585
+        - Epoch [23]: Loss 0.0059095775
+        - Epoch [23]: Loss 0.006056539
+        - Epoch [23]: Loss 0.005755116
+        - Validation: Loss 0.0061673997 Accuracy 1.0
+        - Validation: Loss 0.0058300407 Accuracy 1.0
+        - Epoch [24]: Loss 0.006083387
+        - Epoch [24]: Loss 0.0059809345
+        - Epoch [24]: Loss 0.0056103524
+        - Epoch [24]: Loss 0.0058295554
+        - Epoch [24]: Loss 0.0054715984
+        - Epoch [24]: Loss 0.0055016195
+        - Epoch [24]: Loss 0.005235646
+        - Validation: Loss 0.00580497 Accuracy 1.0
+        - Validation: Loss 0.0054861773 Accuracy 1.0
+        - Epoch [25]: Loss 0.0054880953
+        - Epoch [25]: Loss 0.0056315567
+        - Epoch [25]: Loss 0.005329674
+        - Epoch [25]: Loss 0.0051066116
+        - Epoch [25]: Loss 0.005294378
+        - Epoch [25]: Loss 0.0054784487
+        - Epoch [25]: Loss 0.0054891002
+        - Validation: Loss 0.0054795467 Accuracy 1.0
+        - Validation: Loss 0.005177383 Accuracy 1.0
         - 
         - ````
         - 
@@ -516,7 +516,7 @@
         - - JULIA_CUDA_HARD_MEMORY_LIMIT: 25%
         - 
         - 1 device:
-        -   0: NVIDIA A100-PCIE-40GB MIG 1g.5gb (sm_80, 4.224 GiB / 4.750 GiB available)
+        -   0: NVIDIA A100-PCIE-40GB MIG 1g.5gb (sm_80, 4.130 GiB / 4.750 GiB available)
         - ┌ Warning: LuxAMDGPU is loaded but the AMDGPU is not functional.
         - └ @ LuxAMDGPU ~/.cache/julia-buildkite-plugin/depots/01872db4-8c79-43af-ab7d-12abac4f24f6/packages/LuxAMDGPU/sGa0S/src/LuxAMDGPU.jl:19
         - 

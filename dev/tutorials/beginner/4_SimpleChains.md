@@ -185,15 +185,15 @@ train(lux_model)
 
 
 ```
-[1/9] 	 Time 54.94s 	 Training Accuracy: 24.11% 	 Test Accuracy: 24.0%
-[2/9] 	 Time 44.18s 	 Training Accuracy: 46.89% 	 Test Accuracy: 47.5%
-[3/9] 	 Time 45.2s 	 Training Accuracy: 68.06% 	 Test Accuracy: 67.5%
-[4/9] 	 Time 43.11s 	 Training Accuracy: 74.33% 	 Test Accuracy: 72.5%
-[5/9] 	 Time 56.43s 	 Training Accuracy: 80.61% 	 Test Accuracy: 79.0%
-[6/9] 	 Time 56.05s 	 Training Accuracy: 82.83% 	 Test Accuracy: 82.5%
-[7/9] 	 Time 56.26s 	 Training Accuracy: 84.72% 	 Test Accuracy: 83.0%
-[8/9] 	 Time 54.03s 	 Training Accuracy: 85.61% 	 Test Accuracy: 84.0%
-[9/9] 	 Time 53.57s 	 Training Accuracy: 85.83% 	 Test Accuracy: 84.5%
+[1/9] 	 Time 44.35s 	 Training Accuracy: 24.11% 	 Test Accuracy: 24.0%
+[2/9] 	 Time 38.4s 	 Training Accuracy: 46.89% 	 Test Accuracy: 47.5%
+[3/9] 	 Time 38.67s 	 Training Accuracy: 68.06% 	 Test Accuracy: 67.5%
+[4/9] 	 Time 41.04s 	 Training Accuracy: 74.33% 	 Test Accuracy: 72.5%
+[5/9] 	 Time 38.4s 	 Training Accuracy: 80.61% 	 Test Accuracy: 79.0%
+[6/9] 	 Time 41.72s 	 Training Accuracy: 82.83% 	 Test Accuracy: 82.5%
+[7/9] 	 Time 43.3s 	 Training Accuracy: 84.72% 	 Test Accuracy: 83.0%
+[8/9] 	 Time 41.02s 	 Training Accuracy: 85.61% 	 Test Accuracy: 84.0%
+[9/9] 	 Time 42.58s 	 Training Accuracy: 85.83% 	 Test Accuracy: 84.5%
 
 ```
 
@@ -207,15 +207,15 @@ train(simple_chains_model)
 
 
 ```
-[1/9] 	 Time 16.44s 	 Training Accuracy: 32.94% 	 Test Accuracy: 35.0%
-[2/9] 	 Time 15.76s 	 Training Accuracy: 54.33% 	 Test Accuracy: 56.5%
-[3/9] 	 Time 15.77s 	 Training Accuracy: 75.89% 	 Test Accuracy: 77.0%
-[4/9] 	 Time 15.82s 	 Training Accuracy: 78.44% 	 Test Accuracy: 79.5%
-[5/9] 	 Time 15.83s 	 Training Accuracy: 81.28% 	 Test Accuracy: 82.5%
-[6/9] 	 Time 15.82s 	 Training Accuracy: 85.44% 	 Test Accuracy: 87.0%
-[7/9] 	 Time 15.8s 	 Training Accuracy: 88.06% 	 Test Accuracy: 89.5%
-[8/9] 	 Time 15.81s 	 Training Accuracy: 88.06% 	 Test Accuracy: 90.0%
-[9/9] 	 Time 15.81s 	 Training Accuracy: 88.89% 	 Test Accuracy: 88.0%
+[1/9] 	 Time 16.36s 	 Training Accuracy: 34.5% 	 Test Accuracy: 35.0%
+[2/9] 	 Time 15.76s 	 Training Accuracy: 47.28% 	 Test Accuracy: 45.5%
+[3/9] 	 Time 15.76s 	 Training Accuracy: 67.11% 	 Test Accuracy: 69.0%
+[4/9] 	 Time 15.76s 	 Training Accuracy: 74.5% 	 Test Accuracy: 72.5%
+[5/9] 	 Time 15.76s 	 Training Accuracy: 77.56% 	 Test Accuracy: 75.5%
+[6/9] 	 Time 15.76s 	 Training Accuracy: 82.72% 	 Test Accuracy: 79.0%
+[7/9] 	 Time 15.76s 	 Training Accuracy: 85.72% 	 Test Accuracy: 84.0%
+[8/9] 	 Time 15.77s 	 Training Accuracy: 86.83% 	 Test Accuracy: 85.0%
+[9/9] 	 Time 15.77s 	 Training Accuracy: 88.11% 	 Test Accuracy: 87.5%
 
 ```
 

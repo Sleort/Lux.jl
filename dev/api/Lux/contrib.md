@@ -70,7 +70,7 @@ Training State containing:
   * `step`: Number of updates of the parameters made.
 
 
-<a target='_blank' href='https://github.com/LuxDL/Lux.jl/blob/111e38cf567b32e7b94bc62f0907ebd41f86905a/src/contrib/training.jl#L3-L13' class='documenter-source'>source</a><br>
+<a target='_blank' href='https://github.com/LuxDL/Lux.jl/blob/8dd9bc2e571d11f583eadb0c0834da1fe8837619/src/contrib/training.jl#L3-L13' class='documenter-source'>source</a><br>
 
 </div>
 <br>
@@ -103,7 +103,7 @@ A 4-Tuple containing:
   * `ts`: Updated Training State.
 
 
-<a target='_blank' href='https://github.com/LuxDL/Lux.jl/blob/111e38cf567b32e7b94bc62f0907ebd41f86905a/src/contrib/training.jl#L68-L92' class='documenter-source'>source</a><br>
+<a target='_blank' href='https://github.com/LuxDL/Lux.jl/blob/8dd9bc2e571d11f583eadb0c0834da1fe8837619/src/contrib/training.jl#L68-L92' class='documenter-source'>source</a><br>
 
 </div>
 <br>
@@ -128,7 +128,7 @@ Update the parameters stored in `ts` using the gradients `grads`.
 Updated `TrainState` object.
 
 
-<a target='_blank' href='https://github.com/LuxDL/Lux.jl/blob/111e38cf567b32e7b94bc62f0907ebd41f86905a/src/contrib/training.jl#L49-L62' class='documenter-source'>source</a><br>
+<a target='_blank' href='https://github.com/LuxDL/Lux.jl/blob/8dd9bc2e571d11f583eadb0c0834da1fe8837619/src/contrib/training.jl#L49-L62' class='documenter-source'>source</a><br>
 
 </div>
 <br>
@@ -205,7 +205,7 @@ m = Lux.Experimental.FrozenLayer(Dense(2 => 2), (:weight,))
 See also [`Lux.Experimental.freeze`](contrib#Lux.Experimental.freeze), [`Lux.Experimental.unfreeze`](contrib#Lux.Experimental.unfreeze).
 
 
-<a target='_blank' href='https://github.com/LuxDL/Lux.jl/blob/111e38cf567b32e7b94bc62f0907ebd41f86905a/src/contrib/freeze.jl#L1-L57' class='documenter-source'>source</a><br>
+<a target='_blank' href='https://github.com/LuxDL/Lux.jl/blob/8dd9bc2e571d11f583eadb0c0834da1fe8837619/src/contrib/freeze.jl#L1-L57' class='documenter-source'>source</a><br>
 
 </div>
 <br>
@@ -221,7 +221,7 @@ freeze(l::AbstractExplicitLayer, which_params::Union{Tuple, Nothing} = nothing)
 Constructs a version of `l` with `which_params` frozen. If `which_params` is nothing, then all parameters are frozen.
 
 
-<a target='_blank' href='https://github.com/LuxDL/Lux.jl/blob/111e38cf567b32e7b94bc62f0907ebd41f86905a/src/contrib/freeze.jl#L107-L112' class='documenter-source'>source</a><br>
+<a target='_blank' href='https://github.com/LuxDL/Lux.jl/blob/8dd9bc2e571d11f583eadb0c0834da1fe8837619/src/contrib/freeze.jl#L107-L112' class='documenter-source'>source</a><br>
 
 
 ```
@@ -232,7 +232,7 @@ freeze(l::AbstractExplicitLayer, ps, st::NamedTuple,
 Construct a [`Lux.Experimental.FrozenLayer`](contrib#Lux.Experimental.FrozenLayer) for `l` with the current parameters and states. If `which_params` is nothing, then all parameters are frozen.
 
 
-<a target='_blank' href='https://github.com/LuxDL/Lux.jl/blob/111e38cf567b32e7b94bc62f0907ebd41f86905a/src/contrib/freeze.jl#L117-L123' class='documenter-source'>source</a><br>
+<a target='_blank' href='https://github.com/LuxDL/Lux.jl/blob/8dd9bc2e571d11f583eadb0c0834da1fe8837619/src/contrib/freeze.jl#L117-L123' class='documenter-source'>source</a><br>
 
 </div>
 <br>
@@ -248,7 +248,7 @@ unfreeze(l::FrozenLayer)
 Unfreezes the layer `l`.
 
 
-<a target='_blank' href='https://github.com/LuxDL/Lux.jl/blob/111e38cf567b32e7b94bc62f0907ebd41f86905a/src/contrib/freeze.jl#L141-L145' class='documenter-source'>source</a><br>
+<a target='_blank' href='https://github.com/LuxDL/Lux.jl/blob/8dd9bc2e571d11f583eadb0c0834da1fe8837619/src/contrib/freeze.jl#L141-L145' class='documenter-source'>source</a><br>
 
 
 ```
@@ -258,7 +258,7 @@ unfreeze(l::FrozenLayer, ps, st::NamedTuple)
 Unwraps a [`Lux.Experimental.FrozenLayer`](contrib#Lux.Experimental.FrozenLayer) `l` with the current parameters and states.
 
 
-<a target='_blank' href='https://github.com/LuxDL/Lux.jl/blob/111e38cf567b32e7b94bc62f0907ebd41f86905a/src/contrib/freeze.jl#L148-L152' class='documenter-source'>source</a><br>
+<a target='_blank' href='https://github.com/LuxDL/Lux.jl/blob/8dd9bc2e571d11f583eadb0c0834da1fe8837619/src/contrib/freeze.jl#L148-L152' class='documenter-source'>source</a><br>
 
 </div>
 <br>
@@ -319,7 +319,7 @@ Lux.layer_map(zero_dense_params, c, ps, st)
 ```
 
 
-<a target='_blank' href='https://github.com/LuxDL/Lux.jl/blob/111e38cf567b32e7b94bc62f0907ebd41f86905a/src/contrib/map.jl#L42' class='documenter-source'>source</a><br>
+<a target='_blank' href='https://github.com/LuxDL/Lux.jl/blob/8dd9bc2e571d11f583eadb0c0834da1fe8837619/src/contrib/map.jl#L42' class='documenter-source'>source</a><br>
 
 </div>
 <br>
@@ -360,7 +360,7 @@ Lux.@layer_map zero_dense_params c ps st
 ```
 
 
-<a target='_blank' href='https://github.com/LuxDL/Lux.jl/blob/111e38cf567b32e7b94bc62f0907ebd41f86905a/src/contrib/map.jl#L4' class='documenter-source'>source</a><br>
+<a target='_blank' href='https://github.com/LuxDL/Lux.jl/blob/8dd9bc2e571d11f583eadb0c0834da1fe8837619/src/contrib/map.jl#L4' class='documenter-source'>source</a><br>
 
 </div>
 <br>
@@ -386,7 +386,7 @@ Recurses into the `layer` and replaces the inner most non Container Layers with 
 See [`Lux.Experimental.DebugLayer`](contrib#Lux.Experimental.DebugLayer) for details about the Keyword Arguments.
 
 
-<a target='_blank' href='https://github.com/LuxDL/Lux.jl/blob/111e38cf567b32e7b94bc62f0907ebd41f86905a/src/contrib/debug.jl#L158-L165' class='documenter-source'>source</a><br>
+<a target='_blank' href='https://github.com/LuxDL/Lux.jl/blob/8dd9bc2e571d11f583eadb0c0834da1fe8837619/src/contrib/debug.jl#L158-L165' class='documenter-source'>source</a><br>
 
 </div>
 <br>
@@ -438,7 +438,7 @@ If `nan_check` is enabled and NaNs are detected then a `DomainError` is thrown. 
 See [`Lux.Experimental.@debug_mode`](contrib#Lux.Experimental.@debug_mode) to construct this layer.
 
 
-<a target='_blank' href='https://github.com/LuxDL/Lux.jl/blob/111e38cf567b32e7b94bc62f0907ebd41f86905a/src/contrib/debug.jl#L1-L49' class='documenter-source'>source</a><br>
+<a target='_blank' href='https://github.com/LuxDL/Lux.jl/blob/8dd9bc2e571d11f583eadb0c0834da1fe8837619/src/contrib/debug.jl#L1-L49' class='documenter-source'>source</a><br>
 
 </div>
 <br>
@@ -482,7 +482,7 @@ ps = Lux.share_parameters(ps, (("d3.l2", "d1"), ("d2", "d3.l1")))
 ```
 
 
-<a target='_blank' href='https://github.com/LuxDL/Lux.jl/blob/111e38cf567b32e7b94bc62f0907ebd41f86905a/src/contrib/share_parameters.jl#L3-L36' class='documenter-source'>source</a><br>
+<a target='_blank' href='https://github.com/LuxDL/Lux.jl/blob/8dd9bc2e571d11f583eadb0c0834da1fe8837619/src/contrib/share_parameters.jl#L3-L36' class='documenter-source'>source</a><br>
 
 </div>
 <br>
@@ -606,7 +606,7 @@ Array Parameter don't print the number of parameters on the side. However, they 
 :::
 
 
-<a target='_blank' href='https://github.com/LuxDL/Lux.jl/blob/111e38cf567b32e7b94bc62f0907ebd41f86905a/src/contrib/compact.jl#L17-L133' class='documenter-source'>source</a><br>
+<a target='_blank' href='https://github.com/LuxDL/Lux.jl/blob/8dd9bc2e571d11f583eadb0c0834da1fe8837619/src/contrib/compact.jl#L17-L133' class='documenter-source'>source</a><br>
 
 </div>
 <br>

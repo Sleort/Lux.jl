@@ -224,15 +224,15 @@ train(NeuralODE)
 
 
 ```
-[1/9] 	 Time 5.58s 	 Training Accuracy: 50.74% 	 Test Accuracy: 45.33%
-[2/9] 	 Time 0.53s 	 Training Accuracy: 70.74% 	 Test Accuracy: 66.67%
-[3/9] 	 Time 0.44s 	 Training Accuracy: 77.85% 	 Test Accuracy: 71.33%
-[4/9] 	 Time 0.45s 	 Training Accuracy: 81.04% 	 Test Accuracy: 75.33%
-[5/9] 	 Time 0.46s 	 Training Accuracy: 82.67% 	 Test Accuracy: 78.0%
-[6/9] 	 Time 0.49s 	 Training Accuracy: 84.15% 	 Test Accuracy: 78.67%
-[7/9] 	 Time 0.46s 	 Training Accuracy: 85.48% 	 Test Accuracy: 80.67%
-[8/9] 	 Time 1.02s 	 Training Accuracy: 86.81% 	 Test Accuracy: 82.0%
-[9/9] 	 Time 0.58s 	 Training Accuracy: 87.41% 	 Test Accuracy: 84.0%
+[1/9] 	 Time 4.73s 	 Training Accuracy: 50.74% 	 Test Accuracy: 45.33%
+[2/9] 	 Time 0.35s 	 Training Accuracy: 70.74% 	 Test Accuracy: 66.67%
+[3/9] 	 Time 0.54s 	 Training Accuracy: 77.85% 	 Test Accuracy: 71.33%
+[4/9] 	 Time 0.55s 	 Training Accuracy: 81.04% 	 Test Accuracy: 75.33%
+[5/9] 	 Time 0.29s 	 Training Accuracy: 82.67% 	 Test Accuracy: 78.0%
+[6/9] 	 Time 0.57s 	 Training Accuracy: 84.15% 	 Test Accuracy: 78.67%
+[7/9] 	 Time 0.36s 	 Training Accuracy: 85.48% 	 Test Accuracy: 80.67%
+[8/9] 	 Time 0.39s 	 Training Accuracy: 86.81% 	 Test Accuracy: 82.0%
+[9/9] 	 Time 0.33s 	 Training Accuracy: 87.41% 	 Test Accuracy: 84.0%
 
 ```
 
@@ -246,14 +246,14 @@ train(NeuralODE; sensealg=GaussAdjoint(; autojacvec=ZygoteVJP()), use_named_tupl
 
 
 ```
-[1/9] 	 Time 3.08s 	 Training Accuracy: 47.33% 	 Test Accuracy: 39.33%
-[2/9] 	 Time 0.5s 	 Training Accuracy: 69.19% 	 Test Accuracy: 63.33%
-[3/9] 	 Time 0.32s 	 Training Accuracy: 75.78% 	 Test Accuracy: 71.33%
-[4/9] 	 Time 0.34s 	 Training Accuracy: 79.63% 	 Test Accuracy: 75.33%
-[5/9] 	 Time 0.36s 	 Training Accuracy: 80.89% 	 Test Accuracy: 76.67%
-[6/9] 	 Time 0.37s 	 Training Accuracy: 82.74% 	 Test Accuracy: 79.33%
-[7/9] 	 Time 0.67s 	 Training Accuracy: 84.22% 	 Test Accuracy: 81.33%
-[8/9] 	 Time 0.39s 	 Training Accuracy: 84.96% 	 Test Accuracy: 82.67%
+[1/9] 	 Time 3.19s 	 Training Accuracy: 47.33% 	 Test Accuracy: 39.33%
+[2/9] 	 Time 0.45s 	 Training Accuracy: 69.19% 	 Test Accuracy: 63.33%
+[3/9] 	 Time 0.4s 	 Training Accuracy: 75.78% 	 Test Accuracy: 71.33%
+[4/9] 	 Time 0.53s 	 Training Accuracy: 79.63% 	 Test Accuracy: 75.33%
+[5/9] 	 Time 0.47s 	 Training Accuracy: 80.89% 	 Test Accuracy: 76.67%
+[6/9] 	 Time 0.5s 	 Training Accuracy: 82.74% 	 Test Accuracy: 79.33%
+[7/9] 	 Time 0.36s 	 Training Accuracy: 84.22% 	 Test Accuracy: 81.33%
+[8/9] 	 Time 0.29s 	 Training Accuracy: 84.96% 	 Test Accuracy: 82.67%
 [9/9] 	 Time 0.31s 	 Training Accuracy: 85.11% 	 Test Accuracy: 81.33%
 
 ```
@@ -268,15 +268,15 @@ train(NeuralODE; sensealg=InterpolatingAdjoint(; autojacvec=ReverseDiffVJP()), c
 
 
 ```
-[1/9] 	 Time 1.33s 	 Training Accuracy: 50.96% 	 Test Accuracy: 43.33%
-[2/9] 	 Time 0.32s 	 Training Accuracy: 69.63% 	 Test Accuracy: 66.0%
-[3/9] 	 Time 0.53s 	 Training Accuracy: 77.93% 	 Test Accuracy: 71.33%
-[4/9] 	 Time 0.31s 	 Training Accuracy: 80.74% 	 Test Accuracy: 76.67%
-[5/9] 	 Time 0.25s 	 Training Accuracy: 82.52% 	 Test Accuracy: 78.0%
-[6/9] 	 Time 0.25s 	 Training Accuracy: 84.07% 	 Test Accuracy: 78.67%
+[1/9] 	 Time 1.08s 	 Training Accuracy: 50.96% 	 Test Accuracy: 43.33%
+[2/9] 	 Time 0.3s 	 Training Accuracy: 69.63% 	 Test Accuracy: 66.0%
+[3/9] 	 Time 0.22s 	 Training Accuracy: 77.93% 	 Test Accuracy: 71.33%
+[4/9] 	 Time 0.41s 	 Training Accuracy: 80.74% 	 Test Accuracy: 76.67%
+[5/9] 	 Time 0.23s 	 Training Accuracy: 82.52% 	 Test Accuracy: 78.0%
+[6/9] 	 Time 0.31s 	 Training Accuracy: 84.07% 	 Test Accuracy: 78.67%
 [7/9] 	 Time 0.24s 	 Training Accuracy: 85.33% 	 Test Accuracy: 80.67%
-[8/9] 	 Time 0.26s 	 Training Accuracy: 86.59% 	 Test Accuracy: 81.33%
-[9/9] 	 Time 0.25s 	 Training Accuracy: 87.7% 	 Test Accuracy: 82.0%
+[8/9] 	 Time 0.31s 	 Training Accuracy: 86.59% 	 Test Accuracy: 81.33%
+[9/9] 	 Time 0.22s 	 Training Accuracy: 87.7% 	 Test Accuracy: 82.0%
 
 ```
 
@@ -290,15 +290,15 @@ train(NeuralODE; sensealg=ReverseDiffAdjoint(), cpu=true)
 
 
 ```
-[1/9] 	 Time 8.37s 	 Training Accuracy: 50.96% 	 Test Accuracy: 43.33%
-[2/9] 	 Time 8.37s 	 Training Accuracy: 69.63% 	 Test Accuracy: 66.0%
-[3/9] 	 Time 7.97s 	 Training Accuracy: 77.93% 	 Test Accuracy: 71.33%
-[4/9] 	 Time 8.23s 	 Training Accuracy: 80.74% 	 Test Accuracy: 76.67%
-[5/9] 	 Time 8.89s 	 Training Accuracy: 82.52% 	 Test Accuracy: 78.0%
-[6/9] 	 Time 10.19s 	 Training Accuracy: 84.07% 	 Test Accuracy: 78.67%
-[7/9] 	 Time 9.85s 	 Training Accuracy: 85.33% 	 Test Accuracy: 80.67%
-[8/9] 	 Time 10.6s 	 Training Accuracy: 86.59% 	 Test Accuracy: 81.33%
-[9/9] 	 Time 10.15s 	 Training Accuracy: 87.7% 	 Test Accuracy: 82.0%
+[1/9] 	 Time 9.97s 	 Training Accuracy: 50.96% 	 Test Accuracy: 43.33%
+[2/9] 	 Time 9.52s 	 Training Accuracy: 69.63% 	 Test Accuracy: 66.0%
+[3/9] 	 Time 10.37s 	 Training Accuracy: 77.93% 	 Test Accuracy: 71.33%
+[4/9] 	 Time 10.51s 	 Training Accuracy: 80.74% 	 Test Accuracy: 76.67%
+[5/9] 	 Time 11.36s 	 Training Accuracy: 82.52% 	 Test Accuracy: 78.0%
+[6/9] 	 Time 11.73s 	 Training Accuracy: 84.07% 	 Test Accuracy: 78.67%
+[7/9] 	 Time 12.15s 	 Training Accuracy: 85.33% 	 Test Accuracy: 80.67%
+[8/9] 	 Time 12.13s 	 Training Accuracy: 86.59% 	 Test Accuracy: 81.33%
+[9/9] 	 Time 11.93s 	 Training Accuracy: 87.7% 	 Test Accuracy: 82.0%
 
 ```
 
@@ -347,15 +347,15 @@ train(StatefulNeuralODE)
 
 
 ```
-[1/9] 	 Time 1.87s 	 Training Accuracy: 49.85% 	 Test Accuracy: 40.67%
-[2/9] 	 Time 0.29s 	 Training Accuracy: 70.3% 	 Test Accuracy: 66.67%
-[3/9] 	 Time 0.39s 	 Training Accuracy: 78.07% 	 Test Accuracy: 71.33%
-[4/9] 	 Time 0.34s 	 Training Accuracy: 80.74% 	 Test Accuracy: 76.0%
-[5/9] 	 Time 0.47s 	 Training Accuracy: 82.0% 	 Test Accuracy: 78.0%
-[6/9] 	 Time 0.73s 	 Training Accuracy: 84.44% 	 Test Accuracy: 79.33%
-[7/9] 	 Time 0.33s 	 Training Accuracy: 85.7% 	 Test Accuracy: 82.0%
-[8/9] 	 Time 0.32s 	 Training Accuracy: 87.04% 	 Test Accuracy: 80.67%
-[9/9] 	 Time 0.33s 	 Training Accuracy: 88.0% 	 Test Accuracy: 82.67%
+[1/9] 	 Time 1.35s 	 Training Accuracy: 49.85% 	 Test Accuracy: 40.67%
+[2/9] 	 Time 0.42s 	 Training Accuracy: 70.3% 	 Test Accuracy: 66.67%
+[3/9] 	 Time 0.44s 	 Training Accuracy: 78.07% 	 Test Accuracy: 71.33%
+[4/9] 	 Time 0.39s 	 Training Accuracy: 80.74% 	 Test Accuracy: 76.0%
+[5/9] 	 Time 0.62s 	 Training Accuracy: 82.0% 	 Test Accuracy: 78.0%
+[6/9] 	 Time 0.35s 	 Training Accuracy: 84.44% 	 Test Accuracy: 79.33%
+[7/9] 	 Time 0.35s 	 Training Accuracy: 85.7% 	 Test Accuracy: 82.0%
+[8/9] 	 Time 0.33s 	 Training Accuracy: 87.04% 	 Test Accuracy: 80.67%
+[9/9] 	 Time 0.3s 	 Training Accuracy: 88.0% 	 Test Accuracy: 82.67%
 
 ```
 
@@ -492,7 +492,7 @@ Environment:
 - JULIA_CUDA_HARD_MEMORY_LIMIT: 25%
 
 1 device:
-  0: NVIDIA A100-PCIE-40GB MIG 1g.5gb (sm_80, 3.693 GiB / 4.750 GiB available)
+  0: NVIDIA A100-PCIE-40GB MIG 1g.5gb (sm_80, 3.537 GiB / 4.750 GiB available)
 ┌ Warning: LuxAMDGPU is loaded but the AMDGPU is not functional.
 └ @ LuxAMDGPU ~/.cache/julia-buildkite-plugin/depots/01872db4-8c79-43af-ab7d-12abac4f24f6/packages/LuxAMDGPU/sGa0S/src/LuxAMDGPU.jl:19
 
