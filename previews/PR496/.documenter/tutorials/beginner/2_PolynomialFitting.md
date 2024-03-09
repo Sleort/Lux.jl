@@ -466,7 +466,7 @@ Threads: 48 default, 0 interactive, 24 GC (on 2 virtual cores)
 Environment:
   LD_LIBRARY_PATH = /usr/local/nvidia/lib:/usr/local/nvidia/lib64
   JULIA_DEPOT_PATH = /root/.cache/julia-buildkite-plugin/depots/01872db4-8c79-43af-ab7d-12abac4f24f6
-  JULIA_PROJECT = /var/lib/buildkite-agent/builds/gpuci-3/julialang/lux-dot-jl/docs/Project.toml
+  JULIA_PROJECT = /var/lib/buildkite-agent/builds/gpuci-2/julialang/lux-dot-jl/docs/Project.toml
   JULIA_AMDGPU_LOGGING_ENABLED = true
   JULIA_DEBUG = Literate
   JULIA_CPU_THREADS = 2

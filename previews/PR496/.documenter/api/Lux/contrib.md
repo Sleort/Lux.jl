@@ -63,7 +63,7 @@ Training State containing:
   
 
 
-[source](https://github.com/LuxDL/Lux.jl/blob/19dabbcb22e6fded02e56fd78bcd48664da8cdc0/src/contrib/training.jl#L3-L13)
+[source](https://github.com/LuxDL/Lux.jl/blob/47b1f847e1a6d9a23f55aaa5ace539c14286c123/src/contrib/training.jl#L3-L13)
 
 </div>
 <br>
@@ -104,7 +104,7 @@ A 4-Tuple containing:
   
 
 
-[source](https://github.com/LuxDL/Lux.jl/blob/19dabbcb22e6fded02e56fd78bcd48664da8cdc0/src/contrib/training.jl#L68-L92)
+[source](https://github.com/LuxDL/Lux.jl/blob/47b1f847e1a6d9a23f55aaa5ace539c14286c123/src/contrib/training.jl#L68-L92)
 
 </div>
 <br>
@@ -132,7 +132,7 @@ Update the parameters stored in `ts` using the gradients `grads`.
 Updated `TrainState` object.
 
 
-[source](https://github.com/LuxDL/Lux.jl/blob/19dabbcb22e6fded02e56fd78bcd48664da8cdc0/src/contrib/training.jl#L49-L62)
+[source](https://github.com/LuxDL/Lux.jl/blob/47b1f847e1a6d9a23f55aaa5ace539c14286c123/src/contrib/training.jl#L49-L62)
 
 </div>
 <br>
@@ -209,7 +209,7 @@ m = Lux.Experimental.FrozenLayer(Dense(2 => 2), (:weight,))
 See also [`Lux.Experimental.freeze`](/api/Lux/contrib#Lux.Experimental.freeze), [`Lux.Experimental.unfreeze`](/api/Lux/contrib#Lux.Experimental.unfreeze).
 
 
-[source](https://github.com/LuxDL/Lux.jl/blob/19dabbcb22e6fded02e56fd78bcd48664da8cdc0/src/contrib/freeze.jl#L1-L53)
+[source](https://github.com/LuxDL/Lux.jl/blob/47b1f847e1a6d9a23f55aaa5ace539c14286c123/src/contrib/freeze.jl#L1-L53)
 
 </div>
 <br>
@@ -227,7 +227,7 @@ freeze(l::AbstractExplicitLayer, which_params::Union{Tuple, Nothing} = nothing)
 Constructs a version of `l` with `which_params` frozen. If `which_params` is nothing, then all parameters are frozen.
 
 
-[source](https://github.com/LuxDL/Lux.jl/blob/19dabbcb22e6fded02e56fd78bcd48664da8cdc0/src/contrib/freeze.jl#L103-L108)
+[source](https://github.com/LuxDL/Lux.jl/blob/47b1f847e1a6d9a23f55aaa5ace539c14286c123/src/contrib/freeze.jl#L103-L108)
 
 
 
@@ -240,7 +240,7 @@ freeze(l::AbstractExplicitLayer, ps, st::NamedTuple,
 Construct a [`Lux.Experimental.FrozenLayer`](/api/Lux/contrib#Lux.Experimental.FrozenLayer) for `l` with the current parameters and states. If `which_params` is nothing, then all parameters are frozen.
 
 
-[source](https://github.com/LuxDL/Lux.jl/blob/19dabbcb22e6fded02e56fd78bcd48664da8cdc0/src/contrib/freeze.jl#L113-L119)
+[source](https://github.com/LuxDL/Lux.jl/blob/47b1f847e1a6d9a23f55aaa5ace539c14286c123/src/contrib/freeze.jl#L113-L119)
 
 </div>
 <br>
@@ -258,7 +258,7 @@ unfreeze(l::FrozenLayer)
 Unfreezes the layer `l`.
 
 
-[source](https://github.com/LuxDL/Lux.jl/blob/19dabbcb22e6fded02e56fd78bcd48664da8cdc0/src/contrib/freeze.jl#L137-L141)
+[source](https://github.com/LuxDL/Lux.jl/blob/47b1f847e1a6d9a23f55aaa5ace539c14286c123/src/contrib/freeze.jl#L137-L141)
 
 
 
@@ -270,7 +270,7 @@ unfreeze(l::FrozenLayer, ps, st::NamedTuple)
 Unwraps a [`Lux.Experimental.FrozenLayer`](/api/Lux/contrib#Lux.Experimental.FrozenLayer) `l` with the current parameters and states.
 
 
-[source](https://github.com/LuxDL/Lux.jl/blob/19dabbcb22e6fded02e56fd78bcd48664da8cdc0/src/contrib/freeze.jl#L144-L148)
+[source](https://github.com/LuxDL/Lux.jl/blob/47b1f847e1a6d9a23f55aaa5ace539c14286c123/src/contrib/freeze.jl#L144-L148)
 
 </div>
 <br>
@@ -331,7 +331,7 @@ Lux.layer_map(zero_dense_params, c, ps, st)
 
 
 
-[source](https://github.com/LuxDL/Lux.jl/blob/19dabbcb22e6fded02e56fd78bcd48664da8cdc0/src/contrib/map.jl#L42)
+[source](https://github.com/LuxDL/Lux.jl/blob/47b1f847e1a6d9a23f55aaa5ace539c14286c123/src/contrib/map.jl#L42)
 
 </div>
 <br>
@@ -375,7 +375,7 @@ Lux.@layer_map zero_dense_params c ps st
 
 
 
-[source](https://github.com/LuxDL/Lux.jl/blob/19dabbcb22e6fded02e56fd78bcd48664da8cdc0/src/contrib/map.jl#L4)
+[source](https://github.com/LuxDL/Lux.jl/blob/47b1f847e1a6d9a23f55aaa5ace539c14286c123/src/contrib/map.jl#L4)
 
 </div>
 <br>
@@ -399,7 +399,7 @@ Recurses into the `layer` and replaces the inner most non Container Layers with 
 See [`Lux.Experimental.DebugLayer`](/api/Lux/contrib#Lux.Experimental.DebugLayer) for details about the Keyword Arguments.
 
 
-[source](https://github.com/LuxDL/Lux.jl/blob/19dabbcb22e6fded02e56fd78bcd48664da8cdc0/src/contrib/debug.jl#L154-L161)
+[source](https://github.com/LuxDL/Lux.jl/blob/47b1f847e1a6d9a23f55aaa5ace539c14286c123/src/contrib/debug.jl#L154-L161)
 
 </div>
 <br>
@@ -456,7 +456,7 @@ If `nan_check` is enabled and NaNs are detected then a `DomainError` is thrown. 
 See [`Lux.Experimental.@debug_mode`](/api/Lux/contrib#Lux.Experimental.@debug_mode) to construct this layer.
 
 
-[source](https://github.com/LuxDL/Lux.jl/blob/19dabbcb22e6fded02e56fd78bcd48664da8cdc0/src/contrib/debug.jl#L1-L45)
+[source](https://github.com/LuxDL/Lux.jl/blob/47b1f847e1a6d9a23f55aaa5ace539c14286c123/src/contrib/debug.jl#L1-L45)
 
 </div>
 <br>
@@ -502,7 +502,7 @@ ps = Lux.share_parameters(ps, (("d3.l2", "d1"), ("d2", "d3.l1")))
 
 
 
-[source](https://github.com/LuxDL/Lux.jl/blob/19dabbcb22e6fded02e56fd78bcd48664da8cdc0/src/contrib/share_parameters.jl#L3-L36)
+[source](https://github.com/LuxDL/Lux.jl/blob/47b1f847e1a6d9a23f55aaa5ace539c14286c123/src/contrib/share_parameters.jl#L3-L36)
 
 </div>
 <br>
@@ -631,7 +631,7 @@ Array Parameter don't print the number of parameters on the side. However, they 
 :::
 
 
-[source](https://github.com/LuxDL/Lux.jl/blob/19dabbcb22e6fded02e56fd78bcd48664da8cdc0/src/contrib/compact.jl#L17-L129)
+[source](https://github.com/LuxDL/Lux.jl/blob/47b1f847e1a6d9a23f55aaa5ace539c14286c123/src/contrib/compact.jl#L17-L129)
 
 </div>
 <br>

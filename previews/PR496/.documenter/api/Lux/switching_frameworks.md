@@ -26,7 +26,7 @@ Adapt.adapt(from::FromFluxAdaptor, L)
 Adapt a Flux model `l` to Lux model. See [`FromFluxAdaptor`](/api/Lux/switching_frameworks#Lux.FromFluxAdaptor) for more details.
 
 
-[source](https://github.com/LuxDL/Lux.jl/blob/19dabbcb22e6fded02e56fd78bcd48664da8cdc0/src/transform/flux.jl#L73-L77)
+[source](https://github.com/LuxDL/Lux.jl/blob/47b1f847e1a6d9a23f55aaa5ace539c14286c123/src/transform/flux.jl#L73-L77)
 
 </div>
 <br>
@@ -73,7 +73,7 @@ m2(x, ps, st)
 
 
 
-[source](https://github.com/LuxDL/Lux.jl/blob/19dabbcb22e6fded02e56fd78bcd48664da8cdc0/src/transform/flux.jl#L1-L37)
+[source](https://github.com/LuxDL/Lux.jl/blob/47b1f847e1a6d9a23f55aaa5ace539c14286c123/src/transform/flux.jl#L1-L37)
 
 </div>
 <br>
@@ -111,7 +111,7 @@ Introducing this Layer in your model will lead to type instabilities, given the 
   
 
 
-[source](https://github.com/LuxDL/Lux.jl/blob/19dabbcb22e6fded02e56fd78bcd48664da8cdc0/src/transform/flux.jl#L43-L66)
+[source](https://github.com/LuxDL/Lux.jl/blob/47b1f847e1a6d9a23f55aaa5ace539c14286c123/src/transform/flux.jl#L43-L66)
 
 </div>
 <br>
@@ -139,7 +139,7 @@ Adapt.adapt(from::ToSimpleChainsAdaptor, L::AbstractExplicitLayer)
 Adapt a Flux model to Lux model. See [`ToSimpleChainsAdaptor`](/api/Lux/switching_frameworks#Lux.ToSimpleChainsAdaptor) for more details.
 
 
-[source](https://github.com/LuxDL/Lux.jl/blob/19dabbcb22e6fded02e56fd78bcd48664da8cdc0/src/transform/simplechains.jl#L47-L51)
+[source](https://github.com/LuxDL/Lux.jl/blob/47b1f847e1a6d9a23f55aaa5ace539c14286c123/src/transform/simplechains.jl#L47-L51)
 
 </div>
 <br>
@@ -194,7 +194,7 @@ simple_chains_model(x, ps, st)
 
 
 
-[source](https://github.com/LuxDL/Lux.jl/blob/19dabbcb22e6fded02e56fd78bcd48664da8cdc0/src/transform/simplechains.jl#L1-L42)
+[source](https://github.com/LuxDL/Lux.jl/blob/47b1f847e1a6d9a23f55aaa5ace539c14286c123/src/transform/simplechains.jl#L1-L42)
 
 </div>
 <br>
@@ -216,7 +216,7 @@ Wraps a `SimpleChains` layer into a `Lux` layer. All operations are performed us
   
 
 
-[source](https://github.com/LuxDL/Lux.jl/blob/19dabbcb22e6fded02e56fd78bcd48664da8cdc0/src/transform/simplechains.jl#L79-L88)
+[source](https://github.com/LuxDL/Lux.jl/blob/47b1f847e1a6d9a23f55aaa5ace539c14286c123/src/transform/simplechains.jl#L79-L88)
 
 </div>
 <br>

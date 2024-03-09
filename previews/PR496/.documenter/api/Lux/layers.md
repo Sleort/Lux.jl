@@ -111,7 +111,7 @@ l = BranchLayer(NoOpLayer(), NoOpLayer(), NoOpLayer())
 
 
 
-[source](https://github.com/LuxDL/Lux.jl/blob/19dabbcb22e6fded02e56fd78bcd48664da8cdc0/src/layers/containers.jl#L168-L223)
+[source](https://github.com/LuxDL/Lux.jl/blob/47b1f847e1a6d9a23f55aaa5ace539c14286c123/src/layers/containers.jl#L168-L223)
 
 </div>
 <br>
@@ -189,7 +189,7 @@ c = Chain(Dense(2, 3, relu), BatchNorm(3), Dense(3, 2))
 
 
 
-[source](https://github.com/LuxDL/Lux.jl/blob/19dabbcb22e6fded02e56fd78bcd48664da8cdc0/src/layers/containers.jl#L358-L420)
+[source](https://github.com/LuxDL/Lux.jl/blob/47b1f847e1a6d9a23f55aaa5ace539c14286c123/src/layers/containers.jl#L358-L420)
 
 </div>
 <br>
@@ -266,7 +266,7 @@ end
   
 
 
-[source](https://github.com/LuxDL/Lux.jl/blob/19dabbcb22e6fded02e56fd78bcd48664da8cdc0/src/layers/containers.jl#L257-L318)
+[source](https://github.com/LuxDL/Lux.jl/blob/47b1f847e1a6d9a23f55aaa5ace539c14286c123/src/layers/containers.jl#L257-L318)
 
 </div>
 <br>
@@ -319,7 +319,7 @@ Create a layer which passes an input to each path in `layers`, before reducing t
 See also [`SkipConnection`](/api/Lux/layers#Lux.SkipConnection) which is `Parallel` with one identity.
 
 
-[source](https://github.com/LuxDL/Lux.jl/blob/19dabbcb22e6fded02e56fd78bcd48664da8cdc0/src/layers/containers.jl#L82-L126)
+[source](https://github.com/LuxDL/Lux.jl/blob/47b1f847e1a6d9a23f55aaa5ace539c14286c123/src/layers/containers.jl#L82-L126)
 
 </div>
 <br>
@@ -377,7 +377,7 @@ The simplest "ResNet"-type connection is just `SkipConnection(layer, +)`.
 See [`Parallel`](/api/Lux/layers#Lux.Parallel) for a more general implementation.
 
 
-[source](https://github.com/LuxDL/Lux.jl/blob/19dabbcb22e6fded02e56fd78bcd48664da8cdc0/src/layers/containers.jl#L1-L46)
+[source](https://github.com/LuxDL/Lux.jl/blob/47b1f847e1a6d9a23f55aaa5ace539c14286c123/src/layers/containers.jl#L1-L46)
 
 </div>
 <br>
@@ -445,7 +445,7 @@ It is expected that `repeats` will be a reasonable number below `20`, beyond tha
   
 
 
-[source](https://github.com/LuxDL/Lux.jl/blob/19dabbcb22e6fded02e56fd78bcd48664da8cdc0/src/layers/containers.jl#L580-L634)
+[source](https://github.com/LuxDL/Lux.jl/blob/47b1f847e1a6d9a23f55aaa5ace539c14286c123/src/layers/containers.jl#L580-L634)
 
 </div>
 <br>
@@ -531,7 +531,7 @@ $$O_i = floor\left(\frac{I_i + pad[i] + pad[(i + N) \% length(pad)] - dilation[i
   
 
 
-[source](https://github.com/LuxDL/Lux.jl/blob/19dabbcb22e6fded02e56fd78bcd48664da8cdc0/src/layers/conv.jl#L1)
+[source](https://github.com/LuxDL/Lux.jl/blob/47b1f847e1a6d9a23f55aaa5ace539c14286c123/src/layers/conv.jl#L1)
 
 </div>
 <br>
@@ -603,7 +603,7 @@ Standard convolutional transpose layer.
   
 
 
-[source](https://github.com/LuxDL/Lux.jl/blob/19dabbcb22e6fded02e56fd78bcd48664da8cdc0/src/layers/conv.jl#L648)
+[source](https://github.com/LuxDL/Lux.jl/blob/47b1f847e1a6d9a23f55aaa5ace539c14286c123/src/layers/conv.jl#L648)
 
 </div>
 <br>
@@ -677,7 +677,7 @@ $$O_i = floor\left(\frac{I_i + pad[i] + pad[(i + N) \% length(pad)] - dilation[i
   
 
 
-[source](https://github.com/LuxDL/Lux.jl/blob/19dabbcb22e6fded02e56fd78bcd48664da8cdc0/src/layers/conv.jl#L516)
+[source](https://github.com/LuxDL/Lux.jl/blob/47b1f847e1a6d9a23f55aaa5ace539c14286c123/src/layers/conv.jl#L516)
 
 </div>
 <br>
@@ -725,7 +725,7 @@ Call [`Lux.testmode`](/api/Building_Blocks/LuxCore#LuxCore.testmode) to switch t
 See also [`Dropout`](/api/Building_Blocks/LuxLib#Dropout), [`VariationalHiddenDropout`](/api/Lux/layers#Lux.VariationalHiddenDropout)
 
 
-[source](https://github.com/LuxDL/Lux.jl/blob/19dabbcb22e6fded02e56fd78bcd48664da8cdc0/src/layers/dropout.jl#L1-L30)
+[source](https://github.com/LuxDL/Lux.jl/blob/47b1f847e1a6d9a23f55aaa5ace539c14286c123/src/layers/dropout.jl#L1-L30)
 
 </div>
 <br>
@@ -771,7 +771,7 @@ Call [`Lux.testmode`](/api/Building_Blocks/LuxCore#LuxCore.testmode) to switch t
 See also [`AlphaDropout`](/api/Lux/layers#Lux.AlphaDropout), [`VariationalHiddenDropout`](/api/Lux/layers#Lux.VariationalHiddenDropout)
 
 
-[source](https://github.com/LuxDL/Lux.jl/blob/19dabbcb22e6fded02e56fd78bcd48664da8cdc0/src/layers/dropout.jl#L62-L94)
+[source](https://github.com/LuxDL/Lux.jl/blob/47b1f847e1a6d9a23f55aaa5ace539c14286c123/src/layers/dropout.jl#L62-L94)
 
 </div>
 <br>
@@ -821,7 +821,7 @@ Call [`Lux.testmode`](/api/Building_Blocks/LuxCore#LuxCore.testmode) to switch t
 See also [`AlphaDropout`](/api/Lux/layers#Lux.AlphaDropout), [`Dropout`](/api/Building_Blocks/LuxLib#Dropout)
 
 
-[source](https://github.com/LuxDL/Lux.jl/blob/19dabbcb22e6fded02e56fd78bcd48664da8cdc0/src/layers/dropout.jl#L123-L159)
+[source](https://github.com/LuxDL/Lux.jl/blob/47b1f847e1a6d9a23f55aaa5ace539c14286c123/src/layers/dropout.jl#L123-L159)
 
 </div>
 <br>
@@ -857,7 +857,7 @@ Adaptive Max Pooling layer. Calculates the necessary window size such that its o
 See also [`MaxPool`](/api/Lux/layers#Lux.MaxPool), [`AdaptiveMeanPool`](/api/Lux/layers#Lux.AdaptiveMeanPool).
 
 
-[source](https://github.com/LuxDL/Lux.jl/blob/19dabbcb22e6fded02e56fd78bcd48664da8cdc0/src/layers/conv.jl#L415-L436)
+[source](https://github.com/LuxDL/Lux.jl/blob/47b1f847e1a6d9a23f55aaa5ace539c14286c123/src/layers/conv.jl#L415-L436)
 
 </div>
 <br>
@@ -891,7 +891,7 @@ Adaptive Mean Pooling layer. Calculates the necessary window size such that its 
 See also [`MeanPool`](/api/Lux/layers#Lux.MeanPool), [`AdaptiveMaxPool`](/api/Lux/layers#Lux.AdaptiveMaxPool).
 
 
-[source](https://github.com/LuxDL/Lux.jl/blob/19dabbcb22e6fded02e56fd78bcd48664da8cdc0/src/layers/conv.jl#L451-L472)
+[source](https://github.com/LuxDL/Lux.jl/blob/47b1f847e1a6d9a23f55aaa5ace539c14286c123/src/layers/conv.jl#L451-L472)
 
 </div>
 <br>
@@ -921,7 +921,7 @@ Global Max Pooling layer. Transforms (w,h,c,b)-shaped input into (1,1,c,b)-shape
 See also [`MaxPool`](/api/Lux/layers#Lux.MaxPool), [`AdaptiveMaxPool`](/api/Lux/layers#Lux.AdaptiveMaxPool), [`GlobalMeanPool`](/api/Lux/layers#Lux.GlobalMeanPool)
 
 
-[source](https://github.com/LuxDL/Lux.jl/blob/19dabbcb22e6fded02e56fd78bcd48664da8cdc0/src/layers/conv.jl#L373-L389)
+[source](https://github.com/LuxDL/Lux.jl/blob/47b1f847e1a6d9a23f55aaa5ace539c14286c123/src/layers/conv.jl#L373-L389)
 
 </div>
 <br>
@@ -951,7 +951,7 @@ Global Mean Pooling layer. Transforms (w,h,c,b)-shaped input into (1,1,c,b)-shap
 See also [`MeanPool`](/api/Lux/layers#Lux.MeanPool), [`AdaptiveMeanPool`](/api/Lux/layers#Lux.AdaptiveMeanPool), [`GlobalMaxPool`](/api/Lux/layers#Lux.GlobalMaxPool)
 
 
-[source](https://github.com/LuxDL/Lux.jl/blob/19dabbcb22e6fded02e56fd78bcd48664da8cdc0/src/layers/conv.jl#L394-L410)
+[source](https://github.com/LuxDL/Lux.jl/blob/47b1f847e1a6d9a23f55aaa5ace539c14286c123/src/layers/conv.jl#L394-L410)
 
 </div>
 <br>
@@ -1001,7 +1001,7 @@ $$  O_i = floor\left(\frac{I_i + pad[i] + pad[(i + N) \% length(pad)] - dilation
 See also [`Conv`](/api/Lux/layers#Lux.Conv), [`MeanPool`](/api/Lux/layers#Lux.MeanPool), [`GlobalMaxPool`](/api/Lux/layers#Lux.GlobalMaxPool), [`AdaptiveMaxPool`](/api/Lux/layers#Lux.AdaptiveMaxPool)
 
 
-[source](https://github.com/LuxDL/Lux.jl/blob/19dabbcb22e6fded02e56fd78bcd48664da8cdc0/src/layers/conv.jl#L146)
+[source](https://github.com/LuxDL/Lux.jl/blob/47b1f847e1a6d9a23f55aaa5ace539c14286c123/src/layers/conv.jl#L146)
 
 </div>
 <br>
@@ -1051,7 +1051,7 @@ $$  O_i = floor\left(\frac{I_i + pad[i] + pad[(i + N) \% length(pad)] - dilation
 See also [`Conv`](/api/Lux/layers#Lux.Conv), [`MaxPool`](/api/Lux/layers#Lux.MaxPool), [`GlobalMeanPool`](/api/Lux/layers#Lux.GlobalMeanPool), [`AdaptiveMeanPool`](/api/Lux/layers#Lux.AdaptiveMeanPool)
 
 
-[source](https://github.com/LuxDL/Lux.jl/blob/19dabbcb22e6fded02e56fd78bcd48664da8cdc0/src/layers/conv.jl#L213)
+[source](https://github.com/LuxDL/Lux.jl/blob/47b1f847e1a6d9a23f55aaa5ace539c14286c123/src/layers/conv.jl#L213)
 
 </div>
 <br>
@@ -1132,7 +1132,7 @@ $$\begin{align}
   
 
 
-[source](https://github.com/LuxDL/Lux.jl/blob/19dabbcb22e6fded02e56fd78bcd48664da8cdc0/src/layers/recurrent.jl#L494)
+[source](https://github.com/LuxDL/Lux.jl/blob/47b1f847e1a6d9a23f55aaa5ace539c14286c123/src/layers/recurrent.jl#L494)
 
 </div>
 <br>
@@ -1221,7 +1221,7 @@ $$\begin{align}
   
 
 
-[source](https://github.com/LuxDL/Lux.jl/blob/19dabbcb22e6fded02e56fd78bcd48664da8cdc0/src/layers/recurrent.jl#L308)
+[source](https://github.com/LuxDL/Lux.jl/blob/47b1f847e1a6d9a23f55aaa5ace539c14286c123/src/layers/recurrent.jl#L308)
 
 </div>
 <br>
@@ -1293,7 +1293,7 @@ $h_{new} = activation(weight_{ih} \times x + weight_{hh} \times h_{prev} + bias)
   
 
 
-[source](https://github.com/LuxDL/Lux.jl/blob/19dabbcb22e6fded02e56fd78bcd48664da8cdc0/src/layers/recurrent.jl#L190)
+[source](https://github.com/LuxDL/Lux.jl/blob/47b1f847e1a6d9a23f55aaa5ace539c14286c123/src/layers/recurrent.jl#L190)
 
 </div>
 <br>
@@ -1369,7 +1369,7 @@ For some discussion on this topic, see https://github.com/LuxDL/Lux.jl/issues/47
 :::
 
 
-[source](https://github.com/LuxDL/Lux.jl/blob/19dabbcb22e6fded02e56fd78bcd48664da8cdc0/src/layers/recurrent.jl#L21-L84)
+[source](https://github.com/LuxDL/Lux.jl/blob/47b1f847e1a6d9a23f55aaa5ace539c14286c123/src/layers/recurrent.jl#L21-L84)
 
 </div>
 <br>
@@ -1421,7 +1421,7 @@ To avoid undefined behavior, once the processing of a single sequence of data is
   
 
 
-[source](https://github.com/LuxDL/Lux.jl/blob/19dabbcb22e6fded02e56fd78bcd48664da8cdc0/src/layers/recurrent.jl#L130-L167)
+[source](https://github.com/LuxDL/Lux.jl/blob/47b1f847e1a6d9a23f55aaa5ace539c14286c123/src/layers/recurrent.jl#L130-L167)
 
 </div>
 <br>
@@ -1492,7 +1492,7 @@ If `x` and `y` are matrices, then each column of the output `z = B(x, y)` is of 
   
 
 
-[source](https://github.com/LuxDL/Lux.jl/blob/19dabbcb22e6fded02e56fd78bcd48664da8cdc0/src/layers/basic.jl#L329-L380)
+[source](https://github.com/LuxDL/Lux.jl/blob/47b1f847e1a6d9a23f55aaa5ace539c14286c123/src/layers/basic.jl#L329-L380)
 
 </div>
 <br>
@@ -1545,7 +1545,7 @@ Create a traditional fully connected layer, whose forward pass is given by: `y =
   
 
 
-[source](https://github.com/LuxDL/Lux.jl/blob/19dabbcb22e6fded02e56fd78bcd48664da8cdc0/src/layers/basic.jl#L139-L175)
+[source](https://github.com/LuxDL/Lux.jl/blob/47b1f847e1a6d9a23f55aaa5ace539c14286c123/src/layers/basic.jl#L139-L175)
 
 </div>
 <br>
@@ -1595,7 +1595,7 @@ Unlike `Flux.Embedding`, this layer does not support using `OneHotArray` as an i
   
 
 
-[source](https://github.com/LuxDL/Lux.jl/blob/19dabbcb22e6fded02e56fd78bcd48664da8cdc0/src/layers/basic.jl#L463-L496)
+[source](https://github.com/LuxDL/Lux.jl/blob/47b1f847e1a6d9a23f55aaa5ace539c14286c123/src/layers/basic.jl#L463-L496)
 
 </div>
 <br>
@@ -1645,7 +1645,7 @@ Create a Sparsely Connected Layer with a very specific structure (only Diagonal 
   
 
 
-[source](https://github.com/LuxDL/Lux.jl/blob/19dabbcb22e6fded02e56fd78bcd48664da8cdc0/src/layers/basic.jl#L245-L280)
+[source](https://github.com/LuxDL/Lux.jl/blob/47b1f847e1a6d9a23f55aaa5ace539c14286c123/src/layers/basic.jl#L245-L280)
 
 </div>
 <br>
@@ -1679,7 +1679,7 @@ Flattens the passed array into a matrix.
   
 
 
-[source](https://github.com/LuxDL/Lux.jl/blob/19dabbcb22e6fded02e56fd78bcd48664da8cdc0/src/layers/basic.jl#L33-L51)
+[source](https://github.com/LuxDL/Lux.jl/blob/47b1f847e1a6d9a23f55aaa5ace539c14286c123/src/layers/basic.jl#L33-L51)
 
 </div>
 <br>
@@ -1735,7 +1735,7 @@ See also [`Parallel`](/api/Lux/layers#Lux.Parallel) to reduce with other operato
 [1] Goodfellow, Warde-Farley, Mirza, Courville & Bengio "Maxout Networks" [https://arxiv.org/abs/1302.4389](https://arxiv.org/abs/1302.4389)
 
 
-[source](https://github.com/LuxDL/Lux.jl/blob/19dabbcb22e6fded02e56fd78bcd48664da8cdc0/src/layers/containers.jl#L503-L547)
+[source](https://github.com/LuxDL/Lux.jl/blob/47b1f847e1a6d9a23f55aaa5ace539c14286c123/src/layers/containers.jl#L503-L547)
 
 </div>
 <br>
@@ -1753,7 +1753,7 @@ NoOpLayer()
 As the name suggests does nothing but allows pretty printing of layers. Whatever input is passed is returned.
 
 
-[source](https://github.com/LuxDL/Lux.jl/blob/19dabbcb22e6fded02e56fd78bcd48664da8cdc0/src/layers/basic.jl#L98-L103)
+[source](https://github.com/LuxDL/Lux.jl/blob/47b1f847e1a6d9a23f55aaa5ace539c14286c123/src/layers/basic.jl#L98-L103)
 
 </div>
 <br>
@@ -1785,7 +1785,7 @@ Reshapes the passed array to have a size of `(dims..., :)`
   
 
 
-[source](https://github.com/LuxDL/Lux.jl/blob/19dabbcb22e6fded02e56fd78bcd48664da8cdc0/src/layers/basic.jl#L1-L18)
+[source](https://github.com/LuxDL/Lux.jl/blob/47b1f847e1a6d9a23f55aaa5ace539c14286c123/src/layers/basic.jl#L1-L18)
 
 </div>
 <br>
@@ -1819,7 +1819,7 @@ Return a view of all the data of the input `x` where the index for dimension `di
   
 
 
-[source](https://github.com/LuxDL/Lux.jl/blob/19dabbcb22e6fded02e56fd78bcd48664da8cdc0/src/layers/basic.jl#L66-L85)
+[source](https://github.com/LuxDL/Lux.jl/blob/47b1f847e1a6d9a23f55aaa5ace539c14286c123/src/layers/basic.jl#L66-L85)
 
 </div>
 <br>
@@ -1851,7 +1851,7 @@ Wraps a stateless and parameter less function. Might be used when a function is 
   
 
 
-[source](https://github.com/LuxDL/Lux.jl/blob/19dabbcb22e6fded02e56fd78bcd48664da8cdc0/src/layers/basic.jl#L108-L128)
+[source](https://github.com/LuxDL/Lux.jl/blob/47b1f847e1a6d9a23f55aaa5ace539c14286c123/src/layers/basic.jl#L108-L128)
 
 </div>
 <br>
@@ -1950,7 +1950,7 @@ Passing a batch size of 1, during training will result in NaNs.
 See also [`BatchNorm`](/api/Lux/layers#Lux.BatchNorm), [`InstanceNorm`](/api/Lux/layers#Lux.InstanceNorm), [`LayerNorm`](/api/Lux/layers#Lux.LayerNorm), [`WeightNorm`](/api/Lux/layers#Lux.WeightNorm)
 
 
-[source](https://github.com/LuxDL/Lux.jl/blob/19dabbcb22e6fded02e56fd78bcd48664da8cdc0/src/layers/normalize.jl#L6)
+[source](https://github.com/LuxDL/Lux.jl/blob/47b1f847e1a6d9a23f55aaa5ace539c14286c123/src/layers/normalize.jl#L6)
 
 </div>
 <br>
@@ -2025,7 +2025,7 @@ m = Chain(Dense(784 => 64), GroupNorm(64, 4, relu), Dense(64 => 10), GroupNorm(1
 See also [`GroupNorm`](/api/Lux/layers#Lux.GroupNorm), [`InstanceNorm`](/api/Lux/layers#Lux.InstanceNorm), [`LayerNorm`](/api/Lux/layers#Lux.LayerNorm), [`WeightNorm`](/api/Lux/layers#Lux.WeightNorm)
 
 
-[source](https://github.com/LuxDL/Lux.jl/blob/19dabbcb22e6fded02e56fd78bcd48664da8cdc0/src/layers/normalize.jl#L144-L205)
+[source](https://github.com/LuxDL/Lux.jl/blob/47b1f847e1a6d9a23f55aaa5ace539c14286c123/src/layers/normalize.jl#L144-L205)
 
 </div>
 <br>
@@ -2103,7 +2103,7 @@ m = Chain(Dense(784 => 64), InstanceNorm(64, relu), Dense(64 => 10), InstanceNor
 See also [`BatchNorm`](/api/Lux/layers#Lux.BatchNorm), [`GroupNorm`](/api/Lux/layers#Lux.GroupNorm), [`LayerNorm`](/api/Lux/layers#Lux.LayerNorm), [`WeightNorm`](/api/Lux/layers#Lux.WeightNorm)
 
 
-[source](https://github.com/LuxDL/Lux.jl/blob/19dabbcb22e6fded02e56fd78bcd48664da8cdc0/src/layers/normalize.jl#L242)
+[source](https://github.com/LuxDL/Lux.jl/blob/47b1f847e1a6d9a23f55aaa5ace539c14286c123/src/layers/normalize.jl#L242)
 
 </div>
 <br>
@@ -2174,7 +2174,7 @@ As of v0.5.0, the doc used to say `affine::Bool=false`, but the code actually ha
   
 
 
-[source](https://github.com/LuxDL/Lux.jl/blob/19dabbcb22e6fded02e56fd78bcd48664da8cdc0/src/layers/normalize.jl#L472)
+[source](https://github.com/LuxDL/Lux.jl/blob/47b1f847e1a6d9a23f55aaa5ace539c14286c123/src/layers/normalize.jl#L472)
 
 </div>
 <br>
@@ -2225,7 +2225,7 @@ Weight normalization is a reparameterization that decouples the magnitude of a w
   
 
 
-[source](https://github.com/LuxDL/Lux.jl/blob/19dabbcb22e6fded02e56fd78bcd48664da8cdc0/src/layers/normalize.jl#L348)
+[source](https://github.com/LuxDL/Lux.jl/blob/47b1f847e1a6d9a23f55aaa5ace539c14286c123/src/layers/normalize.jl#L348)
 
 </div>
 <br>
@@ -2261,7 +2261,7 @@ PixelShuffle is not a Layer, rather it returns a [`WrappedFunction`](/api/Lux/la
   
 
 
-[source](https://github.com/LuxDL/Lux.jl/blob/19dabbcb22e6fded02e56fd78bcd48664da8cdc0/src/layers/conv.jl#L487-L513)
+[source](https://github.com/LuxDL/Lux.jl/blob/47b1f847e1a6d9a23f55aaa5ace539c14286c123/src/layers/conv.jl#L487-L513)
 
 </div>
 <br>
@@ -2322,7 +2322,7 @@ Currently supported upsampling `mode`s and corresponding NNlib's methods are:
   
 
 
-[source](https://github.com/LuxDL/Lux.jl/blob/19dabbcb22e6fded02e56fd78bcd48664da8cdc0/src/layers/conv.jl#L280-L324)
+[source](https://github.com/LuxDL/Lux.jl/blob/47b1f847e1a6d9a23f55aaa5ace539c14286c123/src/layers/conv.jl#L280-L324)
 
 </div>
 <br>

@@ -108,7 +108,7 @@ export default defineConfig({
  }
 ]
 ,
-        editLink: { pattern: "github.com/LuxDL/Lux.jl/edit/dev/docs/src/:path" },
+        editLink: { pattern: "github.com/LuxDL/Lux.jl/edit/main/docs/src/:path" },
         socialLinks: [
             { icon: 'github', link: 'https://github.com/LuxDL/Lux.jl' }
         ],

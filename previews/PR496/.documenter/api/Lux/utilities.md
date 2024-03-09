@@ -37,7 +37,7 @@ This function has been deprecated. Use [`cpu_device`](/api/Accelerator_Support/L
 :::
 
 
-[source](https://github.com/LuxDL/Lux.jl/blob/19dabbcb22e6fded02e56fd78bcd48664da8cdc0/src/deprecated.jl#L2-L10)
+[source](https://github.com/LuxDL/Lux.jl/blob/47b1f847e1a6d9a23f55aaa5ace539c14286c123/src/deprecated.jl#L2-L10)
 
 </div>
 <br>
@@ -61,7 +61,7 @@ This function has been deprecated. Use [`gpu_device`](/api/Accelerator_Support/L
 :::
 
 
-[source](https://github.com/LuxDL/Lux.jl/blob/19dabbcb22e6fded02e56fd78bcd48664da8cdc0/src/deprecated.jl#L17-L27)
+[source](https://github.com/LuxDL/Lux.jl/blob/47b1f847e1a6d9a23f55aaa5ace539c14286c123/src/deprecated.jl#L17-L27)
 
 </div>
 <br>
@@ -96,7 +96,7 @@ foldl_init(op, x, init)
 Exactly same as `foldl(op, x; init)` in the forward pass. But, gives gradients wrt `init` in the backward pass.
 
 
-[source](https://github.com/LuxDL/Lux.jl/blob/19dabbcb22e6fded02e56fd78bcd48664da8cdc0/src/utils.jl#L167-L173)
+[source](https://github.com/LuxDL/Lux.jl/blob/47b1f847e1a6d9a23f55aaa5ace539c14286c123/src/utils.jl#L167-L173)
 
 </div>
 <br>
@@ -117,7 +117,7 @@ Returns `true` if `training` is `true` or if `st` contains a `training` field wi
 Method undefined if `st.training` is not of type `Val`.
 
 
-[source](https://github.com/LuxDL/Lux.jl/blob/19dabbcb22e6fded02e56fd78bcd48664da8cdc0/src/utils.jl#L2-L10)
+[source](https://github.com/LuxDL/Lux.jl/blob/47b1f847e1a6d9a23f55aaa5ace539c14286c123/src/utils.jl#L2-L10)
 
 </div>
 <br>
@@ -135,7 +135,7 @@ multigate(x::AbstractArray, ::Val{N})
 Split up `x` into `N` equally sized chunks (along dimension `1`).
 
 
-[source](https://github.com/LuxDL/Lux.jl/blob/19dabbcb22e6fded02e56fd78bcd48664da8cdc0/src/utils.jl#L68-L72)
+[source](https://github.com/LuxDL/Lux.jl/blob/47b1f847e1a6d9a23f55aaa5ace539c14286c123/src/utils.jl#L68-L72)
 
 </div>
 <br>
@@ -157,7 +157,7 @@ f16(m)
 Converts the `eltype` of `m` _floating point_ values to `Float16`. Recurses into structs marked with `Functors.@functor`.
 
 
-[source](https://github.com/LuxDL/Lux.jl/blob/19dabbcb22e6fded02e56fd78bcd48664da8cdc0/src/utils.jl#L205-L210)
+[source](https://github.com/LuxDL/Lux.jl/blob/47b1f847e1a6d9a23f55aaa5ace539c14286c123/src/utils.jl#L205-L210)
 
 </div>
 <br>
@@ -175,7 +175,7 @@ f32(m)
 Converts the `eltype` of `m` _floating point_ values to `Float32`. Recurses into structs marked with `Functors.@functor`.
 
 
-[source](https://github.com/LuxDL/Lux.jl/blob/19dabbcb22e6fded02e56fd78bcd48664da8cdc0/src/utils.jl#L205-L210)
+[source](https://github.com/LuxDL/Lux.jl/blob/47b1f847e1a6d9a23f55aaa5ace539c14286c123/src/utils.jl#L205-L210)
 
 </div>
 <br>
@@ -193,7 +193,7 @@ f64(m)
 Converts the `eltype` of `m` _floating point_ values to `Float64`. Recurses into structs marked with `Functors.@functor`.
 
 
-[source](https://github.com/LuxDL/Lux.jl/blob/19dabbcb22e6fded02e56fd78bcd48664da8cdc0/src/utils.jl#L205-L210)
+[source](https://github.com/LuxDL/Lux.jl/blob/47b1f847e1a6d9a23f55aaa5ace539c14286c123/src/utils.jl#L205-L210)
 
 </div>
 <br>
@@ -243,7 +243,7 @@ For a motivating example, see the Neural ODE tutorial.
   
 
 
-[source](https://github.com/LuxDL/Lux.jl/blob/19dabbcb22e6fded02e56fd78bcd48664da8cdc0/src/helpers/stateful.jl#L1-L37)
+[source](https://github.com/LuxDL/Lux.jl/blob/47b1f847e1a6d9a23f55aaa5ace539c14286c123/src/helpers/stateful.jl#L1-L37)
 
 </div>
 <br>
@@ -265,7 +265,7 @@ An easy way to update `TruncatedStacktraces.VERBOSE` without having to load it m
 Effectively does `TruncatedStacktraces.VERBOSE[] = disable`
 
 
-[source](https://github.com/LuxDL/Lux.jl/blob/19dabbcb22e6fded02e56fd78bcd48664da8cdc0/src/stacktraces.jl#L1-L7)
+[source](https://github.com/LuxDL/Lux.jl/blob/47b1f847e1a6d9a23f55aaa5ace539c14286c123/src/stacktraces.jl#L1-L7)
 
 </div>
 <br>
